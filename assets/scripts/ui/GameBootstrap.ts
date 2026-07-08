@@ -10,6 +10,7 @@ import { LevelMapOverlay } from './components/LevelMapOverlay';
 import { SubjectCard } from './components/SubjectCard';
 import { TraitGrid } from './components/TraitGrid';
 import { ValuePicker } from './components/ValuePicker';
+import { OriginalUiBrowser } from './OriginalUiBrowser';
 import { createPanel, createText, removeChildren } from './uiFactory';
 
 const { ccclass } = _decorator;
@@ -33,6 +34,18 @@ export class GameBootstrap extends Component {
   private progressText!: Node;
 
   async start(): Promise<void> {
+    await this.startOriginalUiBrowser();
+  }
+
+  private async startOriginalUiBrowser(): Promise<void> {
+    removeChildren(this.node);
+    (this.node.getComponent(UITransform) || this.node.addComponent(UITransform)).setContentSize(720, 1280);
+    const browser = new OriginalUiBrowser();
+    this.node.addChild(browser);
+    await browser.loadAndRender();
+  }
+
+  private async startPlayableClone(): Promise<void> {
     await this.repository.load();
     this.levels = this.repository.getOrderedLevels().slice(0, 30);
     if (!this.levels.length) this.levels = this.repository.getLevels().slice(0, 30);

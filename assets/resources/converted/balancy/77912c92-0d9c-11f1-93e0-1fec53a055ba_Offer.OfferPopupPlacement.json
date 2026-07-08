@@ -1,0 +1,45 @@
+{
+  "list": [
+    {
+      "unnyId": "2150",
+      "displayOrder": 100,
+      "startCounter": 1,
+      "placement": "home_focused",
+      "unnyIdPopups": [
+        "2148",
+        "3551"
+      ],
+      "interval": 0
+    },
+    {
+      "unnyId": "2151",
+      "displayOrder": 110,
+      "startCounter": 1,
+      "placement": "before_interstitial",
+      "unnyIdPopups": [
+        "2149"
+      ],
+      "interval": 3
+    },
+    {
+      "unnyId": "2968",
+      "displayOrder": 100,
+      "startCounter": 1,
+      "placement": "challenge_pass",
+      "unnyIdPopups": [
+        "2960"
+      ],
+      "interval": 5
+    },
+    {
+      "unnyId": "2973",
+      "displayOrder": 100,
+      "startCounter": 2,
+      "placement": "win_main_hard_level",
+      "unnyIdPopups": [
+        "2984"
+      ],
+      "interval": 2
+    }
+  ]
+}

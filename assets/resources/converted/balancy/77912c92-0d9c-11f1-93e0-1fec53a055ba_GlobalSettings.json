@@ -1,0 +1,14 @@
+{
+  "branches": {
+    "version": 387
+  },
+  "products": {
+    "version": 7
+  },
+  "settings": {
+    "useLocalTime": false,
+    "gameTimeOffset": 0,
+    "wssEnabled": false,
+    "deployZipEnabled": false
+  }
+}

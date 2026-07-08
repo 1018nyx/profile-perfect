@@ -1,0 +1,27 @@
+{
+  "list": [
+    {
+      "unnyId": "1924",
+      "extraLifeMinLevel": 15,
+      "lifeCount": 2,
+      "baseReviveCost": 900,
+      "unnyIdRevivePayments": [
+        "2871",
+        "2874"
+      ],
+      "incrementReviveCost": [
+        1000
+      ],
+      "unnyIdCondition": null,
+      "priority": 100,
+      "extraLifeDifficulties": [
+        "30",
+        "40"
+      ],
+      "extraLifeOfferDuration": 5
+    }
+  ],
+  "config": {
+    "selected": "1924"
+  }
+}

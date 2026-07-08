@@ -1,0 +1,100 @@
+{
+  "list": [
+    {
+      "unnyId": "2034",
+      "name": "Coin Slot",
+      "prefab": {
+        "id": "1996",
+        "name": "CoinShopSlot",
+        "type": 4
+      },
+      "backgroundSprite": {
+        "id": "2039",
+        "type": 1
+      },
+      "promoSprite": null,
+      "backgroundTint": "#db893bff"
+    },
+    {
+      "unnyId": "2035",
+      "name": "No Ads Slot",
+      "prefab": {
+        "id": "1997",
+        "name": "NoAdsShopSlot",
+        "type": 4
+      },
+      "backgroundSprite": {
+        "id": "2039",
+        "type": 1
+      },
+      "promoSprite": null,
+      "backgroundTint": "#AE5AF3ff"
+    },
+    {
+      "unnyId": "2036",
+      "name": "No Ads Pack Slot",
+      "prefab": {
+        "id": "1995",
+        "name": "PackShopSlot",
+        "type": 4
+      },
+      "backgroundSprite": {
+        "id": "2039",
+        "type": 1
+      },
+      "promoSprite": null,
+      "backgroundTint": "#AE5AF3ff"
+    },
+    {
+      "unnyId": "2037",
+      "name": "Welcome Pack Slot",
+      "prefab": {
+        "id": "1995",
+        "name": "PackShopSlot",
+        "type": 4
+      },
+      "backgroundSprite": {
+        "id": "2039",
+        "type": 1
+      },
+      "promoSprite": null,
+      "backgroundTint": "#E3C141ff"
+    },
+    {
+      "unnyId": "2100",
+      "name": "Best Coin Slot",
+      "prefab": {
+        "id": "1996",
+        "name": "CoinShopSlot",
+        "type": 4
+      },
+      "backgroundSprite": {
+        "id": "2039",
+        "type": 1
+      },
+      "promoSprite": {
+        "id": "2099",
+        "type": 1
+      },
+      "backgroundTint": "#db893bff"
+    },
+    {
+      "unnyId": "2101",
+      "name": "Hot Coin Slot",
+      "prefab": {
+        "id": "1996",
+        "name": "CoinShopSlot",
+        "type": 4
+      },
+      "backgroundSprite": {
+        "id": "2039",
+        "type": 1
+      },
+      "promoSprite": {
+        "id": "2098",
+        "type": 1
+      },
+      "backgroundTint": "#db893bff"
+    }
+  ]
+}

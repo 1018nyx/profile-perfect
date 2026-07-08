@@ -4,6 +4,7 @@
   "type": "module",
   "private": true,
   "scripts": {
+    "convert-original": "node tools/convert-original-assets.mjs",
     "preview-web": "node tools/preview-server.mjs"
   },
   "creator": {

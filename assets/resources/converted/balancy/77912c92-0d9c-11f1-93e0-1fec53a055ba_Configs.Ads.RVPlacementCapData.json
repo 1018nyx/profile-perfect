@@ -1,0 +1,29 @@
+{
+  "list": [
+    {
+      "unnyId": "1760",
+      "placement": "revive",
+      "limitPerDay": 5
+    },
+    {
+      "unnyId": "1761",
+      "placement": "booster_reveal",
+      "limitPerDay": 5
+    },
+    {
+      "unnyId": "1762",
+      "placement": "booster_eraser",
+      "limitPerDay": 5
+    },
+    {
+      "unnyId": "1763",
+      "placement": "get_extra_clue",
+      "limitPerDay": 5
+    },
+    {
+      "unnyId": "1764",
+      "placement": "get_extra_life",
+      "limitPerDay": 5
+    }
+  ]
+}

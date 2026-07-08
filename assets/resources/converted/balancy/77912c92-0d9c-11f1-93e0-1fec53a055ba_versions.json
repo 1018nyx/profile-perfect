@@ -1,0 +1,1036 @@
+{
+  "meta": {
+    "version": 347
+  },
+  "dictionaries": [
+    {
+      "version": 36,
+      "v2": 36,
+      "name": "SmartObjects.Conditions.Platform",
+      "id": "78",
+      "zip": false
+    },
+    {
+      "version": 38,
+      "v2": 38,
+      "name": "SmartObjects.Conditions.AppVersion",
+      "id": "71",
+      "zip": false
+    },
+    {
+      "version": 2,
+      "v2": 2,
+      "name": "SmartObjects.OverrideDataEnum",
+      "id": "99",
+      "zip": false
+    },
+    {
+      "version": 13,
+      "v2": 13,
+      "name": "SmartObjects.OverrideDataString",
+      "id": "85",
+      "zip": false
+    },
+    {
+      "version": 26,
+      "v2": 26,
+      "name": "SmartObjects.OverrideDataListDocument",
+      "id": "114",
+      "zip": false
+    },
+    {
+      "version": 77,
+      "v2": 77,
+      "name": "SmartObjects.Analytics.ABTest",
+      "id": "64",
+      "zip": false
+    },
+    {
+      "version": 50,
+      "v2": 50,
+      "name": "SmartObjects.Conditions.ABTestCondition",
+      "id": "65",
+      "zip": false
+    },
+    {
+      "version": 21,
+      "v2": 21,
+      "name": "SmartObjects.Conditions.Not",
+      "id": "69",
+      "zip": false
+    },
+    {
+      "version": 38,
+      "v2": 38,
+      "name": "SmartObjects.GameEvent",
+      "id": "38",
+      "zip": false
+    },
+    {
+      "version": 85,
+      "v2": 85,
+      "name": "SmartObjects.Conditions.And",
+      "id": "28",
+      "zip": false
+    },
+    {
+      "version": 11,
+      "v2": 11,
+      "name": "SmartObjects.SmartConfig",
+      "id": "39",
+      "zip": false
+    },
+    {
+      "version": 10,
+      "v2": 10,
+      "name": "LiveOps.Store.Page",
+      "id": "90",
+      "zip": false
+    },
+    {
+      "version": 33,
+      "v2": 33,
+      "name": "SmartObjects.Analytics.ABTestVariant",
+      "id": "63",
+      "zip": false
+    },
+    {
+      "version": 9,
+      "v2": 9,
+      "name": "FeatureData",
+      "id": "3178",
+      "zip": false
+    },
+    {
+      "version": 61,
+      "v2": 61,
+      "name": "SmartObjects.OverrideDataInt",
+      "id": "86",
+      "zip": false
+    },
+    {
+      "version": 85,
+      "v2": 85,
+      "name": "SmartObjects.OverrideInfo",
+      "id": "82",
+      "zip": false
+    },
+    {
+      "version": 15,
+      "v2": 15,
+      "name": "Configs.MainLevelConfig",
+      "id": "1830",
+      "zip": false
+    },
+    {
+      "version": 27,
+      "v2": 27,
+      "name": "Offer.OfferPopupPlacement",
+      "id": "2123",
+      "zip": false
+    },
+    {
+      "version": 15,
+      "v2": 15,
+      "name": "Configs.GameplayLifeConfig",
+      "id": "1919",
+      "zip": false
+    },
+    {
+      "version": 23,
+      "v2": 23,
+      "name": "Configs.PaymentOptionData",
+      "id": "1789",
+      "zip": false
+    },
+    {
+      "version": 19,
+      "v2": 19,
+      "name": "Configs.BoosterDefinition",
+      "id": "1793",
+      "zip": false
+    },
+    {
+      "version": 30,
+      "v2": 30,
+      "name": "SmartObjects.Conditions.Or",
+      "id": "32",
+      "zip": false
+    },
+    {
+      "version": 17,
+      "v2": 17,
+      "name": "SmartObjects.Conditions.ProfileFieldNumber",
+      "id": "75",
+      "zip": false
+    },
+    {
+      "version": 4,
+      "v2": 4,
+      "name": "SmartObjects.Conditions.Empty",
+      "id": "105",
+      "zip": false
+    },
+    {
+      "version": 26,
+      "v2": 26,
+      "name": "SmartObjects.OverrideDataBool",
+      "id": "89",
+      "zip": false
+    },
+    {
+      "version": 4,
+      "v2": 4,
+      "name": "Configs.GameplayClueConfig",
+      "id": "1874",
+      "zip": false
+    },
+    {
+      "version": 3,
+      "v2": 3,
+      "name": "Configs.RateAppConfig",
+      "id": "3159",
+      "zip": false
+    },
+    {
+      "version": 7,
+      "v2": 7,
+      "name": "Configs.GameplayValueConfig",
+      "id": "3155",
+      "zip": false
+    },
+    {
+      "version": 4,
+      "v2": 4,
+      "name": "Configs.FeatureConfig",
+      "id": "3172",
+      "zip": false
+    },
+    {
+      "version": 3,
+      "v2": 3,
+      "name": "Shop.ShopSlotTemplate",
+      "id": "1940",
+      "zip": false
+    },
+    {
+      "version": 22,
+      "v2": 22,
+      "name": "PPT.StoreItem",
+      "id": "1945",
+      "zip": false
+    },
+    {
+      "version": 4,
+      "v2": 4,
+      "name": "Offer.OfferButtonTemplate",
+      "id": "2104",
+      "zip": false
+    },
+    {
+      "version": 8,
+      "v2": 8,
+      "name": "Offer.OfferPopupTemplate",
+      "id": "2113",
+      "zip": false
+    },
+    {
+      "version": 10,
+      "v2": 10,
+      "name": "Offer.OfferPopup",
+      "id": "2119",
+      "zip": false
+    },
+    {
+      "version": 3,
+      "v2": 3,
+      "name": "Offer.OfferBanner",
+      "id": "2549",
+      "zip": false
+    },
+    {
+      "version": 7,
+      "v2": 7,
+      "name": "Offer.OfferBannerTemplate",
+      "id": "2552",
+      "zip": false
+    },
+    {
+      "version": 6,
+      "v2": 6,
+      "name": "Offer.OfferBannerPlacement",
+      "id": "2555",
+      "zip": false
+    },
+    {
+      "version": 2,
+      "v2": 2,
+      "name": "LiveOps.Store.SlotPeriod",
+      "id": "123",
+      "zip": false
+    },
+    {
+      "version": 5,
+      "v2": 5,
+      "name": "PPT.StoreSlot",
+      "id": "2065",
+      "zip": false
+    },
+    {
+      "version": 13,
+      "v2": 13,
+      "name": "Offer.OfferButton",
+      "id": "2107",
+      "zip": false
+    },
+    {
+      "version": 2,
+      "v2": 2,
+      "name": "LiveOps.Tasks.TaskCompleteLevelsStreak",
+      "id": "1094",
+      "zip": false
+    },
+    {
+      "version": 2,
+      "v2": 2,
+      "name": "LiveOps.BattlePass.GameEvent",
+      "id": "174",
+      "zip": false
+    },
+    {
+      "version": 5,
+      "v2": 5,
+      "name": "SmartObjects.Conditions.TimeRage",
+      "id": "81",
+      "zip": false
+    },
+    {
+      "version": 2,
+      "v2": 2,
+      "name": "LiveOps.BattlePass.RewardLine",
+      "id": "126",
+      "zip": false
+    },
+    {
+      "version": 2,
+      "v2": 2,
+      "name": "LiveOps.BattlePass.BattlePassConfig",
+      "id": "173",
+      "zip": false
+    },
+    {
+      "version": 2,
+      "v2": 2,
+      "name": "SmartObjects.Conditions.ActiveOffer",
+      "id": "169",
+      "zip": false
+    },
+    {
+      "version": 4,
+      "v2": 4,
+      "name": "LiveOps.Store.Slot",
+      "id": "102",
+      "zip": false
+    },
+    {
+      "version": 2,
+      "v2": 2,
+      "name": "SmartObjects.OverrideDataImage",
+      "id": "93",
+      "zip": false
+    },
+    {
+      "version": 2,
+      "v2": 2,
+      "name": "SmartObjects.Conditions.ActiveEvent",
+      "id": "52",
+      "zip": false
+    },
+    {
+      "version": 2,
+      "v2": 2,
+      "name": "SmartObjects.GameOfferGroup",
+      "id": "108",
+      "zip": false
+    },
+    {
+      "version": 3,
+      "v2": 3,
+      "name": "SmartObjects.ItemComponent.Decay",
+      "id": "1096",
+      "zip": false
+    },
+    {
+      "version": 2,
+      "v2": 2,
+      "name": "SmartObjects.StoreItem",
+      "id": "43",
+      "zip": false
+    },
+    {
+      "version": 8,
+      "v2": 8,
+      "name": "SmartObjects.GameOffer",
+      "id": "37",
+      "zip": false
+    },
+    {
+      "version": 8,
+      "v2": 8,
+      "name": "SmartObjects.Item",
+      "id": "46",
+      "zip": false
+    },
+    {
+      "version": 2,
+      "v2": 2,
+      "name": "SmartObjects.ItemComponent.Bundle",
+      "id": "1097",
+      "zip": false
+    },
+    {
+      "version": 5,
+      "v2": 5,
+      "name": "Configs.Ads.RVPlacementCapData",
+      "id": "1748",
+      "zip": false
+    },
+    {
+      "version": 6,
+      "v2": 6,
+      "name": "Configs.Ads.RVCapConfig",
+      "id": "1751",
+      "zip": false
+    },
+    {
+      "version": 12,
+      "v2": 12,
+      "name": "Configs.ItemDatabase",
+      "id": "1774",
+      "zip": false
+    },
+    {
+      "version": 3,
+      "v2": 3,
+      "name": "Configs.MenuConfig",
+      "id": "1786",
+      "zip": false
+    },
+    {
+      "version": 13,
+      "v2": 13,
+      "name": "Configs.BoosterDatabase",
+      "id": "1796",
+      "zip": false
+    },
+    {
+      "version": 13,
+      "v2": 13,
+      "name": "Configs.GlobalLifeConfig",
+      "id": "1815",
+      "zip": false
+    },
+    {
+      "version": 15,
+      "v2": 15,
+      "name": "Configs.ClientShopConfig",
+      "id": "1885",
+      "zip": false
+    },
+    {
+      "version": 1,
+      "v2": 1,
+      "name": "SmartObjects.OverrideDataLocalizedString",
+      "id": "94",
+      "zip": false
+    },
+    {
+      "version": 1,
+      "v2": 1,
+      "name": "SmartObjects.Conditions.ProfileFieldInRange",
+      "id": "60",
+      "zip": false
+    },
+    {
+      "version": 1,
+      "v2": 1,
+      "name": "SmartObjects.Conditions.EngineVersion",
+      "id": "72",
+      "zip": false
+    },
+    {
+      "version": 1,
+      "v2": 1,
+      "name": "SmartObjects.Conditions.ProfileFieldLong",
+      "id": "49",
+      "zip": false
+    },
+    {
+      "version": 1,
+      "v2": 1,
+      "name": "SmartObjects.Conditions.ProfileFieldString",
+      "id": "76",
+      "zip": false
+    },
+    {
+      "version": 5,
+      "v2": 5,
+      "name": "SmartObjects.Conditions.ProfileFieldBool",
+      "id": "77",
+      "zip": false
+    },
+    {
+      "version": 1,
+      "v2": 1,
+      "name": "SmartObjects.Conditions.SystemLanguage",
+      "id": "80",
+      "zip": false
+    },
+    {
+      "version": 1,
+      "v2": 1,
+      "name": "SmartObjects.OverrideDataFloat",
+      "id": "87",
+      "zip": false
+    },
+    {
+      "version": 1,
+      "v2": 1,
+      "name": "SmartObjects.Conditions.Country",
+      "id": "88",
+      "zip": false
+    },
+    {
+      "version": 1,
+      "v2": 1,
+      "name": "SmartObjects.OverrideDataDocument",
+      "id": "91",
+      "zip": false
+    },
+    {
+      "version": 1,
+      "v2": 1,
+      "name": "SmartObjects.OverrideDataAsset",
+      "id": "92",
+      "zip": false
+    },
+    {
+      "version": 1,
+      "v2": 1,
+      "name": "SmartObjects.OverrideDataDuration",
+      "id": "95",
+      "zip": false
+    },
+    {
+      "version": 1,
+      "v2": 1,
+      "name": "SmartObjects.OverrideDataDateTime",
+      "id": "97",
+      "zip": false
+    },
+    {
+      "version": 1,
+      "v2": 1,
+      "name": "SmartObjects.OverrideDataProduct",
+      "id": "98",
+      "zip": false
+    },
+    {
+      "version": 1,
+      "v2": 1,
+      "name": "SmartObjects.Conditions.Revenue",
+      "id": "111",
+      "zip": false
+    },
+    {
+      "version": 1,
+      "v2": 1,
+      "name": "LiveOps.Store.SlotLogicPeriod",
+      "id": "116",
+      "zip": false
+    },
+    {
+      "version": 1,
+      "v2": 1,
+      "name": "LiveOps.Store.SlotLogicCooldown",
+      "id": "117",
+      "zip": false
+    },
+    {
+      "version": 1,
+      "v2": 1,
+      "name": "SmartObjects.Conditions.ProductWasPurchased",
+      "id": "124",
+      "zip": false
+    },
+    {
+      "version": 1,
+      "v2": 1,
+      "name": "SmartObjects.OverrideDataListString",
+      "id": "125",
+      "zip": false
+    },
+    {
+      "version": 15,
+      "v2": 15,
+      "name": "SmartObjects.OverrideDataListInt",
+      "id": "127",
+      "zip": false
+    },
+    {
+      "version": 1,
+      "v2": 1,
+      "name": "SmartObjects.OverrideDataListFloat",
+      "id": "128",
+      "zip": false
+    },
+    {
+      "version": 1,
+      "v2": 1,
+      "name": "SmartObjects.InventoryConfig",
+      "id": "135",
+      "zip": false
+    },
+    {
+      "version": 1,
+      "v2": 1,
+      "name": "SmartObjects.Conditions.ProfileFieldList",
+      "id": "140",
+      "zip": false
+    },
+    {
+      "version": 1,
+      "v2": 1,
+      "name": "SmartObjects.OverrideDataLong",
+      "id": "144",
+      "zip": false
+    },
+    {
+      "version": 4,
+      "v2": 4,
+      "name": "SmartObjects.Conditions.InventoryItems",
+      "id": "167",
+      "zip": false
+    },
+    {
+      "version": 1,
+      "v2": 1,
+      "name": "SmartObjects.AssetsLifeTime",
+      "id": "170",
+      "zip": false
+    },
+    {
+      "version": 2,
+      "v2": 2,
+      "name": "LiveOps.Store.SlotMultiplier",
+      "id": "121",
+      "zip": false
+    },
+    {
+      "version": 2,
+      "v2": 2,
+      "name": "LiveOps.Store.SlotCooldown",
+      "id": "122",
+      "zip": false
+    },
+    {
+      "version": 2,
+      "v2": 2,
+      "name": "Core.Language",
+      "id": "79",
+      "zip": false
+    },
+    {
+      "version": 2,
+      "v2": 2,
+      "name": "LiveOps.Tasks.TaskCompleteLevels",
+      "id": "1093",
+      "zip": false
+    },
+    {
+      "version": 4,
+      "v2": 4,
+      "name": "SmartObjects.Conditions.StoreItemWasPurchased",
+      "id": "104",
+      "zip": false
+    },
+    {
+      "version": 1,
+      "v2": 1,
+      "name": "LiveOps.Store.SlotLogicMultiplier",
+      "id": "115",
+      "zip": false
+    },
+    {
+      "version": 1,
+      "v2": 1,
+      "name": "SmartObjects.Conditions.DatesRage",
+      "id": "34",
+      "zip": false
+    },
+    {
+      "version": 1,
+      "v2": 1,
+      "name": "SmartObjects.Conditions.TimeOfTheDay",
+      "id": "36",
+      "zip": false
+    },
+    {
+      "version": 1,
+      "v2": 1,
+      "name": "SmartObjects.Conditions.BalancyPlatform",
+      "id": "171",
+      "zip": false
+    },
+    {
+      "version": 1,
+      "v2": 1,
+      "name": "Notifications.RemoteNotification",
+      "id": "41",
+      "zip": false
+    },
+    {
+      "version": 2,
+      "v2": 2,
+      "name": "SmartObjects.Conditions.DayOfTheWeek",
+      "id": "35",
+      "zip": false
+    },
+    {
+      "version": 4,
+      "v2": 4,
+      "name": "SmartObjects.SegmentOption",
+      "id": "48",
+      "zip": false
+    },
+    {
+      "version": 1,
+      "v2": 1,
+      "name": "SmartObjects.Segment",
+      "id": "58",
+      "zip": false
+    },
+    {
+      "version": 11,
+      "v2": 11,
+      "name": "SmartObjects.Conditions.SegmentCondition",
+      "id": "61",
+      "zip": false
+    },
+    {
+      "version": 1,
+      "v2": 1,
+      "name": "LiveOps.DailyBonus",
+      "id": "106",
+      "zip": false
+    },
+    {
+      "version": 1,
+      "v2": 1,
+      "name": "SmartObjects.OverrideDataColor",
+      "id": "109",
+      "zip": false
+    },
+    {
+      "version": 1,
+      "v2": 1,
+      "name": "SmartObjects.Conditions.InstallVersion",
+      "id": "129",
+      "zip": false
+    },
+    {
+      "version": 1,
+      "v2": 1,
+      "name": "LiveOps.Tasks.TaskItem",
+      "id": "1092",
+      "zip": false
+    },
+    {
+      "version": 2,
+      "v2": 2,
+      "name": "SmartObjects.OverrideDataLocalizedStringNew",
+      "id": "110",
+      "zip": false
+    },
+    {
+      "version": 1,
+      "v2": 1,
+      "name": "SmartObjects.GameConfig",
+      "id": "142",
+      "zip": false
+    },
+    {
+      "version": 8,
+      "v2": 8,
+      "name": "Configs.DailyRewardConfig",
+      "id": "2569",
+      "zip": false
+    },
+    {
+      "version": 14,
+      "v2": 14,
+      "name": "LevelOrderMetadata",
+      "id": "2919",
+      "zip": false
+    },
+    {
+      "version": 10,
+      "v2": 10,
+      "name": "Configs.ClientShopItemDefinition",
+      "id": "1880",
+      "zip": false
+    },
+    {
+      "version": 11,
+      "v2": 11,
+      "name": "Configs.DifficultyRewardData",
+      "id": "1827",
+      "zip": false
+    },
+    {
+      "version": 11,
+      "v2": 11,
+      "name": "Configs.ItemDefinition",
+      "id": "1771",
+      "zip": false
+    },
+    {
+      "version": 17,
+      "v2": 17,
+      "name": "Configs.DailyChallengeConfig",
+      "id": "1850",
+      "zip": false
+    },
+    {
+      "version": 4,
+      "v2": 4,
+      "name": "Configs.Ads.BannerAdsConfig",
+      "id": "1937",
+      "zip": false
+    },
+    {
+      "version": 4,
+      "v2": 4,
+      "name": "Configs.L10NConfig",
+      "id": "3686",
+      "zip": false
+    },
+    {
+      "version": 18,
+      "v2": 18,
+      "name": "Configs.Ads.IntConfig",
+      "id": "1780",
+      "zip": false
+    },
+    {
+      "version": 24,
+      "v2": 24,
+      "name": "Configs.StoryConfig",
+      "id": "1843",
+      "zip": false
+    }
+  ],
+  "entities": [],
+  "localization": {
+    "version": 88,
+    "languages": {
+      "en": {
+        "v": 84
+      },
+      "zh-TW": {
+        "v": 61
+      },
+      "fr": {
+        "v": 61
+      },
+      "de": {
+        "v": 61
+      },
+      "ko": {
+        "v": 61
+      },
+      "ja": {
+        "v": 61
+      },
+      "ru": {
+        "v": 61
+      },
+      "pt-BR": {
+        "v": 61
+      },
+      "es": {
+        "v": 61
+      }
+    }
+  },
+  "defaults": {
+    "version": 64,
+    "path": "smart_objects/77912c92-0d9c-11f1-93e0-1fec53a055ba/prod_0.9.1/defaults_v64.json",
+    "type": 0
+  },
+  "addressables": {
+    "platforms": {
+      "11": {
+        "hash": "af49e4123da8c49d54edc196599b8ea8"
+      }
+    }
+  },
+  "dataObjects": [
+    {
+      "version": 71,
+      "path": "files/77912c92-0d9c-11f1-93e0-1fec53a055ba/prod_0.9.1/data_object_1_versions_v71.json",
+      "type": 1,
+      "id": "1"
+    },
+    {
+      "version": 47,
+      "path": "views/77912c92-0d9c-11f1-93e0-1fec53a055ba/prod_0.9.1/data_object_16_versions_v47.json",
+      "type": 16,
+      "id": "16"
+    },
+    {
+      "version": 47,
+      "path": "files/77912c92-0d9c-11f1-93e0-1fec53a055ba/prod_0.9.1/data_object_32_versions_v47.json",
+      "type": 32,
+      "id": "32"
+    },
+    {
+      "version": 47,
+      "path": "files/77912c92-0d9c-11f1-93e0-1fec53a055ba/prod_0.9.1/data_object_64_versions_v47.json",
+      "type": 64,
+      "id": "64"
+    },
+    {
+      "version": 47,
+      "path": "files/77912c92-0d9c-11f1-93e0-1fec53a055ba/prod_0.9.1/data_object_128_versions_v47.json",
+      "type": 128,
+      "id": "128"
+    },
+    {
+      "version": 47,
+      "path": "files/77912c92-0d9c-11f1-93e0-1fec53a055ba/prod_0.9.1/data_object_256_versions_v47.json",
+      "type": 256,
+      "id": "256"
+    },
+    {
+      "version": 47,
+      "path": "files/77912c92-0d9c-11f1-93e0-1fec53a055ba/prod_0.9.1/data_object_512_versions_v47.json",
+      "type": 512,
+      "id": "512"
+    }
+  ],
+  "inheritance": {
+    "SmartObjects.Conditions.Platform": "SmartObjects.Conditions.Base",
+    "SmartObjects.RootEntity": "SmartObjects.Entity",
+    "VisualScripting.ScriptNode": "VisualScripting.BaseNode",
+    "SmartObjects.Conditions.And": "SmartObjects.Conditions.Logic",
+    "SmartObjects.Conditions.ActiveEvent": "SmartObjects.Conditions.Base",
+    "Configs.GlobalLifeConfig": "SmartObjects.ConditionalTemplate",
+    "SmartObjects.Conditions.ProfileFieldNumber": "SmartObjects.Conditions.ProfileFieldCompare",
+    "Configs.MainLevelConfig": "SmartObjects.ConditionalTemplate",
+    "SmartObjects.Conditions.Or": "SmartObjects.Conditions.Logic",
+    "LiveOps.Store.SlotPeriod": "LiveOps.Store.Slot",
+    "Configs.MenuConfig": "SmartObjects.ConditionalTemplate",
+    "VisualScripting.PortEnter": "VisualScripting.Port",
+    "Configs.RateAppConfig": "SmartObjects.ConditionalTemplate",
+    "SmartObjects.Conditions.InstallVersion": "SmartObjects.Conditions.Base",
+    "SmartObjects.Conditions.Empty": "SmartObjects.Conditions.Base",
+    "SmartObjects.Conditions.ProfileFieldCompare": "SmartObjects.Conditions.ProfileField",
+    "SmartObjects.Conditions.AppVersion": "SmartObjects.Conditions.Base",
+    "LiveOps.Tasks.TaskCompleteLevelsStreak": "LiveOps.Tasks.TaskCompleteLevels",
+    "SmartObjects.Components.Text": "SmartObjects.Components.WithPath",
+    "Configs.FeatureConfig": "SmartObjects.ConditionalTemplate",
+    "SmartObjects.Conditions.TimeRage": "SmartObjects.Conditions.TimeBase",
+    "Configs.GameplayClueConfig": "SmartObjects.ConditionalTemplate",
+    "PPT.StoreItem": "SmartObjects.StoreItem",
+    "SmartObjects.SmartConfig": "SmartObjects.GameStoreBase",
+    "SmartObjects.Components.RectTransform": "SmartObjects.Components.Transform",
+    "VisualScripting.PortInDocument": "VisualScripting.PortIn",
+    "SmartObjects.Conditions.SystemLanguage": "SmartObjects.Conditions.Base",
+    "PPT.StoreSlot": "LiveOps.Store.Slot",
+    "SmartObjects.Conditions.ActiveOffer": "SmartObjects.Conditions.Base",
+    "SmartObjects.Conditions.Not": "SmartObjects.Conditions.Base",
+    "SmartObjects.OverrideDataBool": "SmartObjects.OverrideData",
+    "SmartObjects.Components.Button": "SmartObjects.Components.Component",
+    "SmartObjects.OverrideDataEnum": "SmartObjects.OverrideDataInt",
+    "SmartObjects.Conditions.ProfileFieldLong": "SmartObjects.Conditions.ProfileFieldCompare",
+    "SmartObjects.OverrideDataImage": "SmartObjects.OverrideData",
+    "SmartObjects.Conditions.ProfileFieldInRange": "SmartObjects.Conditions.ProfileField",
+    "SmartObjects.OverrideDataInt": "SmartObjects.OverrideData",
+    "SmartObjects.ItemComponent.Decay": "SmartObjects.ItemComponent.Base",
+    "VisualScripting.Node": "VisualScripting.BaseNode",
+    "Configs.ItemDatabase": "SmartObjects.ConditionalTemplate",
+    "SmartObjects.Conditions.EngineVersion": "SmartObjects.Conditions.Base",
+    "SmartObjects.OverrideDataProduct": "SmartObjects.OverrideData",
+    "SmartObjects.Conditions.ProfileFieldBool": "SmartObjects.Conditions.ProfileField",
+    "SmartObjects.Conditions.ProductWasPurchased": "SmartObjects.Conditions.Base",
+    "LiveOps.Store.SlotLogicPeriod": "LiveOps.Store.SlotLogicBase",
+    "SmartObjects.OverrideDataAsset": "SmartObjects.OverrideData",
+    "SmartObjects.OverrideDataFloat": "SmartObjects.OverrideData",
+    "SmartObjects.Conditions.Country": "SmartObjects.Conditions.Base",
+    "SmartObjects.OverrideDataListDocument": "SmartObjects.OverrideData",
+    "Configs.Ads.IntConfig": "SmartObjects.ConditionalTemplate",
+    "LiveOps.Store.SlotMultiplier": "LiveOps.Store.Slot",
+    "LiveOps.Store.SlotCooldown": "LiveOps.Store.Slot",
+    "VisualScripting.PortOut": "VisualScripting.Port",
+    "SmartObjects.Conditions.ProfileFieldString": "SmartObjects.Conditions.ProfileFieldCompare",
+    "SmartObjects.Conditions.Revenue": "SmartObjects.Conditions.Base",
+    "SmartObjects.Conditions.StoreItemWasPurchased": "SmartObjects.Conditions.Base",
+    "SmartObjects.OverrideDataString": "SmartObjects.OverrideData",
+    "SmartObjects.Components.Transform": "SmartObjects.Components.Component",
+    "LiveOps.BattlePass.GameEvent": "SmartObjects.GameEvent",
+    "SmartObjects.OverrideDataListFloat": "SmartObjects.OverrideData",
+    "LiveOps.Store.SlotLogicCooldown": "LiveOps.Store.SlotLogicBase",
+    "LiveOps.Tasks.TaskItem": "LiveOps.Tasks.BaseTask",
+    "SmartObjects.OverrideDataListString": "SmartObjects.OverrideData",
+    "SmartObjects.Conditions.ProfileFieldList": "SmartObjects.Conditions.ProfileField",
+    "VisualScripting.PortInParams": "VisualScripting.PortIn",
+    "SmartObjects.OverrideDataDateTime": "SmartObjects.OverrideData",
+    "SmartObjects.Conditions.TimeOfTheDay": "SmartObjects.Conditions.TimeBase",
+    "SmartObjects.GameStoreBase": "SmartObjects.ConditionalTemplate",
+    "Notifications.RemoteNotification": "Notifications.BaseNotification",
+    "SmartObjects.OverrideDataLong": "SmartObjects.OverrideData",
+    "SmartObjects.Conditions.BalancyPlatform": "SmartObjects.Conditions.Base",
+    "SmartObjects.Components.WithPath": "SmartObjects.Components.Component",
+    "VisualScripting.PortInString": "VisualScripting.PortIn",
+    "VisualScripting.PortIn": "VisualScripting.Port",
+    "SmartObjects.OverrideDataListInt": "SmartObjects.OverrideData",
+    "VisualScripting.PortInBoolean": "VisualScripting.PortIn",
+    "VisualScripting.PortInNumber": "VisualScripting.PortIn",
+    "SmartObjects.Components.Image": "SmartObjects.Components.WithPath",
+    "Configs.Ads.RVCapConfig": "SmartObjects.ConditionalTemplate",
+    "SmartObjects.OverrideDataColor": "SmartObjects.OverrideData",
+    "Configs.BoosterDatabase": "SmartObjects.ConditionalTemplate",
+    "VisualScripting.PortInTemplate": "VisualScripting.PortIn",
+    "LiveOps.Tasks.TaskCompleteLevels": "LiveOps.Tasks.BaseTask",
+    "Configs.GameplayValueConfig": "SmartObjects.ConditionalTemplate",
+    "SmartObjects.Conditions.TimeBase": "SmartObjects.Conditions.Base",
+    "SmartObjects.Components.Canvas": "SmartObjects.Components.Component",
+    "SmartObjects.OverrideDataDuration": "SmartObjects.OverrideData",
+    "SmartObjects.Conditions.Custom": "SmartObjects.Conditions.Base",
+    "SmartObjects.OverrideDataLocalizedStringNew": "SmartObjects.OverrideData",
+    "SmartObjects.Conditions.ABTestCondition": "SmartObjects.Conditions.Base",
+    "SmartObjects.Conditions.DatesRage": "SmartObjects.Conditions.TimeBase",
+    "SmartObjects.Components.ViewSettings": "SmartObjects.Components.Component",
+    "LiveOps.Store.SlotLogicMultiplier": "LiveOps.Store.SlotLogicBase",
+    "SmartObjects.Conditions.DayOfTheWeek": "SmartObjects.Conditions.TimeBase",
+    "SmartObjects.OverrideDataDocument": "SmartObjects.OverrideData",
+    "Configs.GameplayLifeConfig": "SmartObjects.ConditionalTemplate",
+    "SmartObjects.ItemComponent.Bundle": "SmartObjects.ItemComponent.Base",
+    "SmartObjects.Conditions.InventoryItems": "SmartObjects.Conditions.Base",
+    "Configs.Ads.BannerAdsConfig": "SmartObjects.ConditionalTemplate",
+    "SmartObjects.Conditions.Logic": "SmartObjects.Conditions.Base",
+    "Configs.DailyRewardConfig": "SmartObjects.ConditionalTemplate",
+    "SmartObjects.Conditions.ProfileField": "SmartObjects.Conditions.Base",
+    "Configs.ClientShopConfig": "SmartObjects.ConditionalTemplate",
+    "SmartObjects.OverrideDataLocalizedString": "SmartObjects.OverrideData",
+    "VisualScripting.PortExit": "VisualScripting.Port",
+    "Configs.L10NConfig": "SmartObjects.ConditionalTemplate",
+    "Configs.StoryConfig": "SmartObjects.ConditionalTemplate",
+    "SmartObjects.Conditions.SegmentCondition": "SmartObjects.Conditions.Base",
+    "Configs.DailyChallengeConfig": "SmartObjects.ConditionalTemplate"
+  },
+  "branch": {
+    "name": "prod_0.9.1"
+  }
+}

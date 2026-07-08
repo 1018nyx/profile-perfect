@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "version": 6
+  },
+  "dictionaries": [],
+  "entities": [],
+  "localization": {
+    "version": 0,
+    "languages": {}
+  },
+  "dataObjects": [],
+  "inheritance": {},
+  "branch": {
+    "name": "dev"
+  }
+}

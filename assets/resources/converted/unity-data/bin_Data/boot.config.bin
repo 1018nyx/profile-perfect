@@ -1,0 +1,7 @@
+gfx-threading-mode=3
+wait-for-native-debugger=0
+hdr-display-enabled=0
+gc-max-time-slice=3
+androidStartInFullscreen=1
+androidRenderOutsideSafeArea=1
+build-guid=5d6971e408ef4863829ada2e27c9af3c

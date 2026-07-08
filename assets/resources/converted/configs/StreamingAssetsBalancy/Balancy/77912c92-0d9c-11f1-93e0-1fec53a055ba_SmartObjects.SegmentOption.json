@@ -1,0 +1,142 @@
+{
+  "list": [
+    {
+      "unnyId": "567",
+      "name": "Monetary/Whale ($500-1500)",
+      "unnyIdCondition": "574",
+      "type": 0
+    },
+    {
+      "unnyId": "571",
+      "name": "Monetary/Killer Whale ($1500+)",
+      "unnyIdCondition": "570",
+      "type": 0
+    },
+    {
+      "unnyId": "578",
+      "name": "Monetary/Orca ($150-500)",
+      "unnyIdCondition": "577",
+      "type": 0
+    },
+    {
+      "unnyId": "582",
+      "name": "Monetary/Dolphin ($30-150)",
+      "unnyIdCondition": "581",
+      "type": 0
+    },
+    {
+      "unnyId": "586",
+      "name": "Monetary/Minnow ($1-30)",
+      "unnyIdCondition": "585",
+      "type": 0
+    },
+    {
+      "unnyId": "590",
+      "name": "Monetary/NonPayer ($0)",
+      "unnyIdCondition": "589",
+      "type": 0
+    },
+    {
+      "unnyId": "594",
+      "name": "Recency/R0 (<1 day)",
+      "unnyIdCondition": "593",
+      "type": 0
+    },
+    {
+      "unnyId": "598",
+      "name": "Recency/R1 (1-2 days)",
+      "unnyIdCondition": "597",
+      "type": 0
+    },
+    {
+      "unnyId": "602",
+      "name": "Recency/R2 (2-7) days",
+      "unnyIdCondition": "601",
+      "type": 0
+    },
+    {
+      "unnyId": "606",
+      "name": "Recency/R7 (7+ days)",
+      "unnyIdCondition": "605",
+      "type": 0
+    },
+    {
+      "unnyId": "610",
+      "name": "Recency/None (never)",
+      "unnyIdCondition": "609",
+      "type": 0
+    },
+    {
+      "unnyId": "614",
+      "name": "MaxPay/$5",
+      "unnyIdCondition": "613",
+      "type": 0
+    },
+    {
+      "unnyId": "618",
+      "name": "MaxPay/$10",
+      "unnyIdCondition": "617",
+      "type": 0
+    },
+    {
+      "unnyId": "622",
+      "name": "MaxPay/$20",
+      "unnyIdCondition": "621",
+      "type": 0
+    },
+    {
+      "unnyId": "626",
+      "name": "MaxPay/$50",
+      "unnyIdCondition": "625",
+      "type": 0
+    },
+    {
+      "unnyId": "630",
+      "name": "MaxPay/$100",
+      "unnyIdCondition": "629",
+      "type": 0
+    },
+    {
+      "unnyId": "634",
+      "name": "Frequency/F0 (None)",
+      "unnyIdCondition": "633",
+      "type": 0
+    },
+    {
+      "unnyId": "639",
+      "name": "Frequency/F1 (Daily)",
+      "unnyIdCondition": "566",
+      "type": 0
+    },
+    {
+      "unnyId": "643",
+      "name": "Frequency/F3 (2-4 a Week)",
+      "unnyIdCondition": "642",
+      "type": 0
+    },
+    {
+      "unnyId": "647",
+      "name": "Frequency/F7 (Weekly)",
+      "unnyIdCondition": "646",
+      "type": 0
+    },
+    {
+      "unnyId": "651",
+      "name": "Frequency/F14 (Once per 2 Weeks)",
+      "unnyIdCondition": "650",
+      "type": 0
+    },
+    {
+      "unnyId": "655",
+      "name": "Frequency/F30 (Monthly)",
+      "unnyIdCondition": "654",
+      "type": 0
+    },
+    {
+      "unnyId": "659",
+      "name": "Frequency/F60 (Rarely)",
+      "unnyIdCondition": "658",
+      "type": 0
+    }
+  ]
+}

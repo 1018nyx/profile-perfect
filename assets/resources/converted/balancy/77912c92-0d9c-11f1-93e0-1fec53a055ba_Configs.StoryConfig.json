@@ -1,0 +1,23 @@
+{
+  "list": [
+    {
+      "unnyId": "1848",
+      "isShowUnlockedPopup": true,
+      "unnyIdCondition": null,
+      "priority": 100,
+      "winRewards": [
+        {
+          "unnyId": "1849",
+          "unnyIdItem": "1765",
+          "count": 30
+        }
+      ],
+      "unlockLevelNumber": 9,
+      "unlockCost": 1000,
+      "storyRewards": []
+    }
+  ],
+  "config": {
+    "selected": "1848"
+  }
+}

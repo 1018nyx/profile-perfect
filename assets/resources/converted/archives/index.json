@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "generatedAt": "2026-07-08T12:22:55.487Z",
+  "group": "archives",
+  "label": "Original archive payloads",
+  "count": 1,
+  "bytes": 67704890,
+  "entries": [
+    {
+      "id": "archives:1046",
+      "group": "archives",
+      "kind": "original-apk-assets-zip",
+      "name": "ProfilePerfect_apk_assets.zip",
+      "originalExtension": ".zip",
+      "cocosExtension": ".bin",
+      "importType": "BufferAsset",
+      "sourcePath": "assets/original_unity/ProfilePerfect_apk_assets.zip",
+      "outputPath": "assets/resources/converted/archives/ProfilePerfect_apk_assets.zip.bin",
+      "resourceLoadPath": "converted/archives/ProfilePerfect_apk_assets.zip",
+      "bytes": 67704890,
+      "sha256": "213aad0366bef2de2322959a90a679ddffa59ee681eb7fda60cf25150ca3f665",
+      "note": "Raw original APK assets archive kept loadable as a Cocos BufferAsset."
+    }
+  ]
+}

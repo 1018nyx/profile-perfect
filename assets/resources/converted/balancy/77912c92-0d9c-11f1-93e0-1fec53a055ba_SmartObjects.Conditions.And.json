@@ -1,0 +1,524 @@
+{
+  "list": [
+    {
+      "unnyId": "566",
+      "unnyIdConditions": [
+        "636",
+        "638"
+      ]
+    },
+    {
+      "unnyId": "570",
+      "unnyIdConditions": [
+        "569"
+      ]
+    },
+    {
+      "unnyId": "574",
+      "unnyIdConditions": [
+        "573"
+      ]
+    },
+    {
+      "unnyId": "577",
+      "unnyIdConditions": [
+        "576"
+      ]
+    },
+    {
+      "unnyId": "581",
+      "unnyIdConditions": [
+        "580"
+      ]
+    },
+    {
+      "unnyId": "585",
+      "unnyIdConditions": [
+        "584"
+      ]
+    },
+    {
+      "unnyId": "589",
+      "unnyIdConditions": [
+        "588"
+      ]
+    },
+    {
+      "unnyId": "593",
+      "unnyIdConditions": [
+        "592"
+      ]
+    },
+    {
+      "unnyId": "597",
+      "unnyIdConditions": [
+        "596"
+      ]
+    },
+    {
+      "unnyId": "601",
+      "unnyIdConditions": [
+        "600"
+      ]
+    },
+    {
+      "unnyId": "605",
+      "unnyIdConditions": [
+        "604"
+      ]
+    },
+    {
+      "unnyId": "609",
+      "unnyIdConditions": [
+        "608"
+      ]
+    },
+    {
+      "unnyId": "613",
+      "unnyIdConditions": [
+        "612"
+      ]
+    },
+    {
+      "unnyId": "617",
+      "unnyIdConditions": [
+        "616"
+      ]
+    },
+    {
+      "unnyId": "621",
+      "unnyIdConditions": [
+        "620"
+      ]
+    },
+    {
+      "unnyId": "625",
+      "unnyIdConditions": [
+        "624"
+      ]
+    },
+    {
+      "unnyId": "629",
+      "unnyIdConditions": [
+        "628"
+      ]
+    },
+    {
+      "unnyId": "633",
+      "unnyIdConditions": [
+        "632"
+      ]
+    },
+    {
+      "unnyId": "642",
+      "unnyIdConditions": [
+        "641"
+      ]
+    },
+    {
+      "unnyId": "646",
+      "unnyIdConditions": [
+        "645"
+      ]
+    },
+    {
+      "unnyId": "650",
+      "unnyIdConditions": [
+        "649"
+      ]
+    },
+    {
+      "unnyId": "654",
+      "unnyIdConditions": [
+        "653"
+      ]
+    },
+    {
+      "unnyId": "658",
+      "unnyIdConditions": [
+        "657"
+      ]
+    },
+    {
+      "unnyId": "2041",
+      "unnyIdConditions": [
+        "2935",
+        "3170",
+        "3531",
+        "3528"
+      ]
+    },
+    {
+      "unnyId": "2050",
+      "unnyIdConditions": [
+        "2092"
+      ]
+    },
+    {
+      "unnyId": "2054",
+      "unnyIdConditions": [
+        "2057",
+        "2094"
+      ]
+    },
+    {
+      "unnyId": "2087",
+      "unnyIdConditions": [
+        "2088"
+      ]
+    },
+    {
+      "unnyId": "2153",
+      "unnyIdConditions": [
+        "2154"
+      ]
+    },
+    {
+      "unnyId": "2167",
+      "unnyIdConditions": [
+        "2168",
+        "2169"
+      ]
+    },
+    {
+      "unnyId": "2500",
+      "unnyIdConditions": [
+        "2498",
+        "2499"
+      ]
+    },
+    {
+      "unnyId": "2503",
+      "unnyIdConditions": [
+        "2502"
+      ]
+    },
+    {
+      "unnyId": "2514",
+      "unnyIdConditions": [
+        "2513"
+      ]
+    },
+    {
+      "unnyId": "2721",
+      "unnyIdConditions": [
+        "2719",
+        "2720"
+      ]
+    },
+    {
+      "unnyId": "2886",
+      "unnyIdConditions": [
+        "2884",
+        "2885"
+      ]
+    },
+    {
+      "unnyId": "2931",
+      "unnyIdConditions": [
+        "2932"
+      ]
+    },
+    {
+      "unnyId": "2963",
+      "unnyIdConditions": [
+        "2965"
+      ]
+    },
+    {
+      "unnyId": "2982",
+      "unnyIdConditions": [
+        "2978",
+        "2981"
+      ]
+    },
+    {
+      "unnyId": "2999",
+      "unnyIdConditions": [
+        "3000",
+        "3001"
+      ]
+    },
+    {
+      "unnyId": "3125",
+      "unnyIdConditions": [
+        "3123",
+        "3124"
+      ]
+    },
+    {
+      "unnyId": "3193",
+      "unnyIdConditions": [
+        "3194",
+        "3195"
+      ]
+    },
+    {
+      "unnyId": "3215",
+      "unnyIdConditions": [
+        "3216",
+        "3217"
+      ]
+    },
+    {
+      "unnyId": "3247",
+      "unnyIdConditions": [
+        "3245",
+        "3246"
+      ]
+    },
+    {
+      "unnyId": "3263",
+      "unnyIdConditions": [
+        "3261",
+        "3262"
+      ]
+    },
+    {
+      "unnyId": "3325",
+      "unnyIdConditions": [
+        "3326",
+        "3327"
+      ]
+    },
+    {
+      "unnyId": "3329",
+      "unnyIdConditions": [
+        "3328"
+      ]
+    },
+    {
+      "unnyId": "3333",
+      "unnyIdConditions": [
+        "3332"
+      ]
+    },
+    {
+      "unnyId": "3337",
+      "unnyIdConditions": [
+        "3336"
+      ]
+    },
+    {
+      "unnyId": "3384",
+      "unnyIdConditions": [
+        "3385",
+        "3386"
+      ]
+    },
+    {
+      "unnyId": "3388",
+      "unnyIdConditions": [
+        "3387"
+      ]
+    },
+    {
+      "unnyId": "3394",
+      "unnyIdConditions": [
+        "3393"
+      ]
+    },
+    {
+      "unnyId": "3404",
+      "unnyIdConditions": [
+        "3402",
+        "3403"
+      ]
+    },
+    {
+      "unnyId": "3407",
+      "unnyIdConditions": [
+        "3406"
+      ]
+    },
+    {
+      "unnyId": "3413",
+      "unnyIdConditions": [
+        "3412"
+      ]
+    },
+    {
+      "unnyId": "3423",
+      "unnyIdConditions": [
+        "3421",
+        "3422"
+      ]
+    },
+    {
+      "unnyId": "3426",
+      "unnyIdConditions": [
+        "3425"
+      ]
+    },
+    {
+      "unnyId": "3432",
+      "unnyIdConditions": [
+        "3431"
+      ]
+    },
+    {
+      "unnyId": "3442",
+      "unnyIdConditions": [
+        "3440",
+        "3441"
+      ]
+    },
+    {
+      "unnyId": "3445",
+      "unnyIdConditions": [
+        "3444"
+      ]
+    },
+    {
+      "unnyId": "3451",
+      "unnyIdConditions": [
+        "3450"
+      ]
+    },
+    {
+      "unnyId": "3474",
+      "unnyIdConditions": [
+        "3472",
+        "3473"
+      ]
+    },
+    {
+      "unnyId": "3477",
+      "unnyIdConditions": [
+        "3476"
+      ]
+    },
+    {
+      "unnyId": "3483",
+      "unnyIdConditions": [
+        "3482"
+      ]
+    },
+    {
+      "unnyId": "3489",
+      "unnyIdConditions": [
+        "3488"
+      ]
+    },
+    {
+      "unnyId": "3502",
+      "unnyIdConditions": [
+        "3503",
+        "3504"
+      ]
+    },
+    {
+      "unnyId": "3513",
+      "unnyIdConditions": [
+        "3512"
+      ]
+    },
+    {
+      "unnyId": "3518",
+      "unnyIdConditions": [
+        "3517"
+      ]
+    },
+    {
+      "unnyId": "3523",
+      "unnyIdConditions": [
+        "3522"
+      ]
+    },
+    {
+      "unnyId": "3536",
+      "unnyIdConditions": [
+        "3537",
+        "3538"
+      ]
+    },
+    {
+      "unnyId": "3544",
+      "unnyIdConditions": [
+        "3540",
+        "3542",
+        "3546"
+      ]
+    },
+    {
+      "unnyId": "3553",
+      "unnyIdConditions": [
+        "3552"
+      ]
+    },
+    {
+      "unnyId": "3558",
+      "unnyIdConditions": [
+        "3557"
+      ]
+    },
+    {
+      "unnyId": "3563",
+      "unnyIdConditions": [
+        "3562"
+      ]
+    },
+    {
+      "unnyId": "3570",
+      "unnyIdConditions": [
+        "3571"
+      ]
+    },
+    {
+      "unnyId": "3573",
+      "unnyIdConditions": [
+        "3574"
+      ]
+    },
+    {
+      "unnyId": "4140",
+      "unnyIdConditions": [
+        "4141",
+        "4142"
+      ]
+    },
+    {
+      "unnyId": "4144",
+      "unnyIdConditions": [
+        "4143"
+      ]
+    },
+    {
+      "unnyId": "4149",
+      "unnyIdConditions": [
+        "4148"
+      ]
+    },
+    {
+      "unnyId": "4154",
+      "unnyIdConditions": [
+        "4153"
+      ]
+    },
+    {
+      "unnyId": "4164",
+      "unnyIdConditions": [
+        "4162",
+        "4163"
+      ]
+    },
+    {
+      "unnyId": "4167",
+      "unnyIdConditions": [
+        "4166"
+      ]
+    },
+    {
+      "unnyId": "4172",
+      "unnyIdConditions": [
+        "4171"
+      ]
+    },
+    {
+      "unnyId": "4177",
+      "unnyIdConditions": [
+        "4176"
+      ]
+    }
+  ]
+}

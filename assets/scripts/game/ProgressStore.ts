@@ -18,7 +18,8 @@ export class ProgressStore {
     try {
       const parsed = JSON.parse(raw);
       if (!Array.isArray(parsed.completed)) return emptyState();
-      return { completed: [...new Set(parsed.completed.filter(Boolean))] };
+      const completed = parsed.completed.filter((item): item is string => typeof item === 'string' && item.length > 0);
+      return { completed: [...new Set<string>(completed)] };
     } catch {
       sys.localStorage.removeItem(STORAGE_KEY);
       return emptyState();

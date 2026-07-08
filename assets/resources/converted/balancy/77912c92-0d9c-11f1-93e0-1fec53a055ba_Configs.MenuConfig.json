@@ -1,0 +1,13 @@
+{
+  "list": [
+    {
+      "unnyId": "1788",
+      "unnyIdCondition": null,
+      "priority": 100,
+      "minLevel": 9
+    }
+  ],
+  "config": {
+    "selected": "1788"
+  }
+}
