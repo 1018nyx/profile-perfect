@@ -3,7 +3,6 @@ import argparse
 import hashlib
 import json
 import re
-import shutil
 from pathlib import Path
 
 import UnityPy
@@ -48,7 +47,6 @@ def main():
     if not manifest_path.is_absolute():
         manifest_path = project_root / manifest_path
 
-    shutil.rmtree(output_root, ignore_errors=True)
     output_root.mkdir(parents=True, exist_ok=True)
     manifest_path.parent.mkdir(parents=True, exist_ok=True)
 

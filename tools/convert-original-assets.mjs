@@ -116,29 +116,6 @@ async function walkFiles(root) {
   return result.sort((a, b) => a.localeCompare(b));
 }
 
-async function collectMetaFiles(root) {
-  const metas = new Map();
-  for (const file of await walkFiles(root)) {
-    if (!file.endsWith('.meta')) continue;
-    metas.set(projectRel(file), await fs.readFile(file, 'utf8'));
-  }
-  return metas;
-}
-
-async function restoreMetaFiles(metas) {
-  for (const [relativeMetaPath, content] of metas) {
-    const metaPath = path.join(projectRoot, relativeMetaPath);
-    const assetPath = metaPath.slice(0, -'.meta'.length);
-    try {
-      await fs.access(assetPath);
-    } catch {
-      continue;
-    }
-    await ensureParent(metaPath);
-    await fs.writeFile(metaPath, content, 'utf8');
-  }
-}
-
 async function hashFile(filePath) {
   const hash = createHash('sha256');
   await new Promise((resolve, reject) => {
@@ -631,8 +608,6 @@ async function writeManifest() {
 }
 
 async function main() {
-  const preservedMetas = await collectMetaFiles(convertedRoot);
-  await fs.rm(convertedRoot, { recursive: true, force: true });
   await fs.mkdir(convertedRoot, { recursive: true });
 
   await convertUnityBundles();
@@ -641,7 +616,6 @@ async function main() {
   await convertUnityAudio();
   await convertConfigsAndArchives();
   await writeManifest();
-  await restoreMetaFiles(preservedMetas);
 
   const summary = summarizeGroups();
   console.log('Converted original Unity assets for Cocos Creator resources.');
