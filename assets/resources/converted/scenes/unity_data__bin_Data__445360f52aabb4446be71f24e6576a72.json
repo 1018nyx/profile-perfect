@@ -1,0 +1,767 @@
+{
+  "version": 1,
+  "id": "unity_data__bin_Data__445360f52aabb4446be71f24e6576a72",
+  "name": "445360f52aabb4446be71f24e6576a72",
+  "category": "unity-data",
+  "sourcePath": "assets/original_unity/unity_data/bin_Data/445360f52aabb4446be71f24e6576a72",
+  "objectCounts": {
+    "CanvasGroup": 1,
+    "CanvasRenderer": 7,
+    "GameObject": 8,
+    "MonoBehaviour": 9,
+    "RectTransform": 8
+  },
+  "rootIds": [
+    "5"
+  ],
+  "nodeCount": 8,
+  "componentCount": 17,
+  "componentTypeCounts": {
+    "CanvasGroup": 1,
+    "CanvasRenderer": 7,
+    "MonoBehaviour": 9
+  },
+  "referencedAssetCount": 0,
+  "sceneSettingCount": 0,
+  "nodes": {
+    "1": {
+      "id": "1",
+      "name": "AchievementDescription",
+      "active": true,
+      "layer": 5,
+      "tag": 0,
+      "parent": "5",
+      "children": [],
+      "path": "AchievementDisplay/AchievementDescription",
+      "transformId": "22",
+      "transform": {
+        "type": "RectTransform",
+        "localPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "localRotation": {
+          "x": -0.0,
+          "y": -0.0,
+          "z": -0.0,
+          "w": 1.0
+        },
+        "localScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "anchorMin": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "anchorMax": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "anchoredPosition": {
+          "x": -201.0,
+          "y": 55.0
+        },
+        "sizeDelta": {
+          "x": 353.8940124511719,
+          "y": 79.90799713134766
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "componentTypes": [
+        "CanvasRenderer",
+        "MonoBehaviour"
+      ]
+    },
+    "2": {
+      "id": "2",
+      "name": "AchievementTitle",
+      "active": true,
+      "layer": 5,
+      "tag": 0,
+      "parent": "5",
+      "children": [],
+      "path": "AchievementDisplay/AchievementTitle",
+      "transformId": "16",
+      "transform": {
+        "type": "RectTransform",
+        "localPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "localRotation": {
+          "x": -0.0,
+          "y": -0.0,
+          "z": -0.0,
+          "w": 1.0
+        },
+        "localScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "anchorMin": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "anchorMax": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "anchoredPosition": {
+          "x": -201.0,
+          "y": 100.0
+        },
+        "sizeDelta": {
+          "x": 354.1090087890625,
+          "y": 50.07500076293945
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "componentTypes": [
+        "CanvasRenderer",
+        "MonoBehaviour"
+      ]
+    },
+    "3": {
+      "id": "3",
+      "name": "AchievementBackgroundUnlocked",
+      "active": false,
+      "layer": 5,
+      "tag": 0,
+      "parent": "5",
+      "children": [],
+      "path": "AchievementDisplay/AchievementBackgroundUnlocked",
+      "transformId": "18",
+      "transform": {
+        "type": "RectTransform",
+        "localPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.0
+        },
+        "localRotation": {
+          "x": -0.0,
+          "y": -0.0,
+          "z": -0.0,
+          "w": 1.0
+        },
+        "localScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "anchorMin": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "anchorMax": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "anchoredPosition": {
+          "x": -256.0,
+          "y": 64.0
+        },
+        "sizeDelta": {
+          "x": 512.0,
+          "y": 128.0
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "componentTypes": [
+        "CanvasRenderer",
+        "MonoBehaviour"
+      ]
+    },
+    "4": {
+      "id": "4",
+      "name": "ProgressBar",
+      "active": true,
+      "layer": 5,
+      "tag": 0,
+      "parent": "5",
+      "children": [
+        "8"
+      ],
+      "path": "AchievementDisplay/ProgressBar",
+      "transformId": "20",
+      "transform": {
+        "type": "RectTransform",
+        "localPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "localRotation": {
+          "x": -0.0,
+          "y": -0.0,
+          "z": -0.0,
+          "w": 1.0
+        },
+        "localScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "anchorMin": {
+          "x": 0.0,
+          "y": 0.5
+        },
+        "anchorMax": {
+          "x": 0.0,
+          "y": 0.5
+        },
+        "anchoredPosition": {
+          "x": -209.39999389648438,
+          "y": 13.899999618530273
+        },
+        "sizeDelta": {
+          "x": 335.0,
+          "y": 5.0
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "componentTypes": [
+        "CanvasRenderer",
+        "MonoBehaviour",
+        "MonoBehaviour"
+      ]
+    },
+    "5": {
+      "id": "5",
+      "name": "AchievementDisplay",
+      "active": true,
+      "layer": 5,
+      "tag": 0,
+      "parent": null,
+      "children": [
+        "7",
+        "3",
+        "6",
+        "2",
+        "1",
+        "4"
+      ],
+      "path": "AchievementDisplay",
+      "transformId": "23",
+      "transform": {
+        "type": "RectTransform",
+        "localPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "localRotation": {
+          "x": -0.0,
+          "y": -0.0,
+          "z": -0.0,
+          "w": 1.0
+        },
+        "localScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "anchorMin": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "anchorMax": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "anchoredPosition": {
+          "x": -29.421096801757812,
+          "y": -15.58761215209961
+        },
+        "sizeDelta": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "componentTypes": [
+        "MonoBehaviour",
+        "CanvasGroup"
+      ]
+    },
+    "6": {
+      "id": "6",
+      "name": "AchievementIcon",
+      "active": true,
+      "layer": 5,
+      "tag": 0,
+      "parent": "5",
+      "children": [],
+      "path": "AchievementDisplay/AchievementIcon",
+      "transformId": "19",
+      "transform": {
+        "type": "RectTransform",
+        "localPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "localRotation": {
+          "x": -0.0,
+          "y": -0.0,
+          "z": -0.0,
+          "w": 1.0
+        },
+        "localScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "anchorMin": {
+          "x": 0.0,
+          "y": 0.5
+        },
+        "anchorMax": {
+          "x": 0.0,
+          "y": 0.5
+        },
+        "anchoredPosition": {
+          "x": -448.0,
+          "y": 64.0
+        },
+        "sizeDelta": {
+          "x": 128.0,
+          "y": 128.0
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "componentTypes": [
+        "CanvasRenderer",
+        "MonoBehaviour"
+      ]
+    },
+    "7": {
+      "id": "7",
+      "name": "AchievementBackground",
+      "active": true,
+      "layer": 5,
+      "tag": 0,
+      "parent": "5",
+      "children": [],
+      "path": "AchievementDisplay/AchievementBackground",
+      "transformId": "21",
+      "transform": {
+        "type": "RectTransform",
+        "localPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.0
+        },
+        "localRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "localScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "anchorMin": {
+          "x": 1.0,
+          "y": 0.0
+        },
+        "anchorMax": {
+          "x": 1.0,
+          "y": 0.0
+        },
+        "anchoredPosition": {
+          "x": -256.0,
+          "y": 64.0
+        },
+        "sizeDelta": {
+          "x": 512.0,
+          "y": 128.0
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "componentTypes": [
+        "CanvasRenderer",
+        "MonoBehaviour"
+      ]
+    },
+    "8": {
+      "id": "8",
+      "name": "ProgressBarFront",
+      "active": true,
+      "layer": 5,
+      "tag": 0,
+      "parent": "4",
+      "children": [],
+      "path": "AchievementDisplay/ProgressBar/ProgressBarFront",
+      "transformId": "17",
+      "transform": {
+        "type": "RectTransform",
+        "localPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "localRotation": {
+          "x": -0.0,
+          "y": -0.0,
+          "z": -0.0,
+          "w": 1.0
+        },
+        "localScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "anchorMin": {
+          "x": 0.0,
+          "y": 0.5
+        },
+        "anchorMax": {
+          "x": 0.0,
+          "y": 0.5
+        },
+        "anchoredPosition": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "sizeDelta": {
+          "x": 335.0,
+          "y": 5.0
+        },
+        "pivot": {
+          "x": 0.0,
+          "y": 0.5
+        }
+      },
+      "componentTypes": [
+        "CanvasRenderer",
+        "MonoBehaviour"
+      ]
+    }
+  },
+  "components": {
+    "12": {
+      "id": "12",
+      "type": "CanvasRenderer",
+      "name": "",
+      "enabled": null,
+      "gameObject": "1",
+      "script": null,
+      "references": [
+        {
+          "field": "m_GameObject",
+          "fileId": 0,
+          "pathId": "1"
+        }
+      ],
+      "properties": {
+        "m_CullTransparentMesh": true
+      }
+    },
+    "29": {
+      "id": "29",
+      "type": "MonoBehaviour",
+      "error": {
+        "pathId": "29",
+        "type": "MonoBehaviour",
+        "error": "ValueError",
+        "message": "Expected to read 256 bytes, but only read 32 bytes"
+      }
+    },
+    "10": {
+      "id": "10",
+      "type": "CanvasRenderer",
+      "name": "",
+      "enabled": null,
+      "gameObject": "2",
+      "script": null,
+      "references": [
+        {
+          "field": "m_GameObject",
+          "fileId": 0,
+          "pathId": "2"
+        }
+      ],
+      "properties": {
+        "m_CullTransparentMesh": true
+      }
+    },
+    "27": {
+      "id": "27",
+      "type": "MonoBehaviour",
+      "error": {
+        "pathId": "27",
+        "type": "MonoBehaviour",
+        "error": "ValueError",
+        "message": "Expected to read 168 bytes, but only read 32 bytes"
+      }
+    },
+    "13": {
+      "id": "13",
+      "type": "CanvasRenderer",
+      "name": "",
+      "enabled": null,
+      "gameObject": "3",
+      "script": null,
+      "references": [
+        {
+          "field": "m_GameObject",
+          "fileId": 0,
+          "pathId": "3"
+        }
+      ],
+      "properties": {
+        "m_CullTransparentMesh": true
+      }
+    },
+    "32": {
+      "id": "32",
+      "type": "MonoBehaviour",
+      "error": {
+        "pathId": "32",
+        "type": "MonoBehaviour",
+        "error": "ValueError",
+        "message": "Expected to read 136 bytes, but only read 32 bytes"
+      }
+    },
+    "14": {
+      "id": "14",
+      "type": "CanvasRenderer",
+      "name": "",
+      "enabled": null,
+      "gameObject": "4",
+      "script": null,
+      "references": [
+        {
+          "field": "m_GameObject",
+          "fileId": 0,
+          "pathId": "4"
+        }
+      ],
+      "properties": {
+        "m_CullTransparentMesh": true
+      }
+    },
+    "33": {
+      "id": "33",
+      "type": "MonoBehaviour",
+      "error": {
+        "pathId": "33",
+        "type": "MonoBehaviour",
+        "error": "ValueError",
+        "message": "Expected to read 136 bytes, but only read 32 bytes"
+      }
+    },
+    "30": {
+      "id": "30",
+      "type": "MonoBehaviour",
+      "error": {
+        "pathId": "30",
+        "type": "MonoBehaviour",
+        "error": "ValueError",
+        "message": "Expected to read 880 bytes, but only read 32 bytes"
+      }
+    },
+    "25": {
+      "id": "25",
+      "type": "MonoBehaviour",
+      "error": {
+        "pathId": "25",
+        "type": "MonoBehaviour",
+        "error": "ValueError",
+        "message": "Expected to read 104 bytes, but only read 32 bytes"
+      }
+    },
+    "24": {
+      "id": "24",
+      "type": "CanvasGroup",
+      "name": "",
+      "enabled": 1,
+      "gameObject": "5",
+      "script": null,
+      "references": [
+        {
+          "field": "m_GameObject",
+          "fileId": 0,
+          "pathId": "5"
+        }
+      ],
+      "properties": {
+        "m_Alpha": 1.0,
+        "m_Interactable": true,
+        "m_BlocksRaycasts": true,
+        "m_IgnoreParentGroups": false
+      }
+    },
+    "15": {
+      "id": "15",
+      "type": "CanvasRenderer",
+      "name": "",
+      "enabled": null,
+      "gameObject": "6",
+      "script": null,
+      "references": [
+        {
+          "field": "m_GameObject",
+          "fileId": 0,
+          "pathId": "6"
+        }
+      ],
+      "properties": {
+        "m_CullTransparentMesh": true
+      }
+    },
+    "28": {
+      "id": "28",
+      "type": "MonoBehaviour",
+      "error": {
+        "pathId": "28",
+        "type": "MonoBehaviour",
+        "error": "ValueError",
+        "message": "Expected to read 136 bytes, but only read 32 bytes"
+      }
+    },
+    "11": {
+      "id": "11",
+      "type": "CanvasRenderer",
+      "name": "",
+      "enabled": null,
+      "gameObject": "7",
+      "script": null,
+      "references": [
+        {
+          "field": "m_GameObject",
+          "fileId": 0,
+          "pathId": "7"
+        }
+      ],
+      "properties": {
+        "m_CullTransparentMesh": true
+      }
+    },
+    "31": {
+      "id": "31",
+      "type": "MonoBehaviour",
+      "error": {
+        "pathId": "31",
+        "type": "MonoBehaviour",
+        "error": "ValueError",
+        "message": "Expected to read 136 bytes, but only read 32 bytes"
+      }
+    },
+    "9": {
+      "id": "9",
+      "type": "CanvasRenderer",
+      "name": "",
+      "enabled": null,
+      "gameObject": "8",
+      "script": null,
+      "references": [
+        {
+          "field": "m_GameObject",
+          "fileId": 0,
+          "pathId": "8"
+        }
+      ],
+      "properties": {
+        "m_CullTransparentMesh": true
+      }
+    },
+    "26": {
+      "id": "26",
+      "type": "MonoBehaviour",
+      "error": {
+        "pathId": "26",
+        "type": "MonoBehaviour",
+        "error": "ValueError",
+        "message": "Expected to read 136 bytes, but only read 32 bytes"
+      }
+    }
+  },
+  "referencedAssets": [],
+  "sceneSettings": [],
+  "extractionErrors": [
+    {
+      "pathId": "29",
+      "type": "MonoBehaviour",
+      "error": "ValueError",
+      "message": "Expected to read 256 bytes, but only read 32 bytes"
+    },
+    {
+      "pathId": "27",
+      "type": "MonoBehaviour",
+      "error": "ValueError",
+      "message": "Expected to read 168 bytes, but only read 32 bytes"
+    },
+    {
+      "pathId": "32",
+      "type": "MonoBehaviour",
+      "error": "ValueError",
+      "message": "Expected to read 136 bytes, but only read 32 bytes"
+    },
+    {
+      "pathId": "33",
+      "type": "MonoBehaviour",
+      "error": "ValueError",
+      "message": "Expected to read 136 bytes, but only read 32 bytes"
+    },
+    {
+      "pathId": "30",
+      "type": "MonoBehaviour",
+      "error": "ValueError",
+      "message": "Expected to read 880 bytes, but only read 32 bytes"
+    },
+    {
+      "pathId": "25",
+      "type": "MonoBehaviour",
+      "error": "ValueError",
+      "message": "Expected to read 104 bytes, but only read 32 bytes"
+    },
+    {
+      "pathId": "28",
+      "type": "MonoBehaviour",
+      "error": "ValueError",
+      "message": "Expected to read 136 bytes, but only read 32 bytes"
+    },
+    {
+      "pathId": "31",
+      "type": "MonoBehaviour",
+      "error": "ValueError",
+      "message": "Expected to read 136 bytes, but only read 32 bytes"
+    },
+    {
+      "pathId": "26",
+      "type": "MonoBehaviour",
+      "error": "ValueError",
+      "message": "Expected to read 136 bytes, but only read 32 bytes"
+    }
+  ]
+}

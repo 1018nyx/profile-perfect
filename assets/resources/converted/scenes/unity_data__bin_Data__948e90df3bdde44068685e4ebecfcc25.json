@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "id": "unity_data__bin_Data__948e90df3bdde44068685e4ebecfcc25",
+  "name": "948e90df3bdde44068685e4ebecfcc25",
+  "category": "unity-data",
+  "sourcePath": "assets/original_unity/unity_data/bin_Data/948e90df3bdde44068685e4ebecfcc25",
+  "objectCounts": {
+    "GameObject": 1,
+    "MonoBehaviour": 1,
+    "Transform": 1
+  },
+  "rootIds": [
+    "1"
+  ],
+  "nodeCount": 1,
+  "componentCount": 1,
+  "componentTypeCounts": {
+    "MonoBehaviour": 1
+  },
+  "referencedAssetCount": 0,
+  "sceneSettingCount": 0,
+  "nodes": {
+    "1": {
+      "id": "1",
+      "name": "MMDefaultPostProcessingVolume",
+      "active": true,
+      "layer": 0,
+      "tag": 0,
+      "parent": null,
+      "children": [],
+      "path": "MMDefaultPostProcessingVolume",
+      "transformId": "2",
+      "transform": {
+        "type": "Transform",
+        "localPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "localRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "localScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "componentTypes": [
+        "MonoBehaviour"
+      ]
+    }
+  },
+  "components": {
+    "3": {
+      "id": "3",
+      "type": "MonoBehaviour",
+      "name": "",
+      "enabled": 1,
+      "gameObject": "1",
+      "script": {
+        "fileId": 0,
+        "pathId": null
+      },
+      "references": [
+        {
+          "field": "m_GameObject",
+          "fileId": 0,
+          "pathId": "1"
+        }
+      ],
+      "properties": {}
+    }
+  },
+  "referencedAssets": [],
+  "sceneSettings": [],
+  "extractionErrors": []
+}

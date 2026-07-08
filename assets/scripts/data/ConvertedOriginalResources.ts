@@ -1,6 +1,6 @@
 import { AudioClip, BufferAsset, JsonAsset, resources, TextAsset } from 'cc';
 
-export type ConvertedOriginalGroup = 'unityBundles' | 'balancy' | 'unityData' | 'audio' | 'configs' | 'archives';
+export type ConvertedOriginalGroup = 'unityBundles' | 'balancy' | 'unityData' | 'scenes' | 'audio' | 'configs' | 'archives';
 
 export interface ConvertedOriginalEntry {
   id: string;
@@ -18,6 +18,13 @@ export interface ConvertedOriginalEntry {
   container?: string;
   zipEntry?: string;
   note?: string;
+  sceneId?: string;
+  category?: string;
+  rootCount?: number;
+  nodeCount?: number;
+  componentCount?: number;
+  referencedAssetCount?: number;
+  sceneSettingCount?: number;
 }
 
 export interface ConvertedOriginalManifest {

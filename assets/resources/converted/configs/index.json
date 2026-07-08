@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-08T12:34:44.270Z",
+  "generatedAt": "2026-07-08T12:53:22.218Z",
   "group": "configs",
   "label": "Unity service and Balancy zip configs",
   "count": 100,
   "bytes": 238041,
   "entries": [
     {
-      "id": "configs:976",
+      "id": "configs:1122",
       "group": "configs",
       "kind": "unity-services-config",
       "name": "UnityServicesProjectConfiguration.json",
@@ -21,7 +21,7 @@
       "sha256": "cf5d12e99479d882701150c25cdab7a570456cfffc3a5fc22a35ad01d5e19128"
     },
     {
-      "id": "configs:977",
+      "id": "configs:1123",
       "group": "configs",
       "kind": "config-zip-binary",
       "name": "StreamingAssetsBalancy.zip",
@@ -35,7 +35,7 @@
       "sha256": "2e264fc8c3ef73cfe1cb69e71f0672c38fadb0d6bd194ceb2dc7e95591521eb0"
     },
     {
-      "id": "configs:978",
+      "id": "configs:1124",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_Branches.json",
@@ -51,7 +51,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_Branches.json"
     },
     {
-      "id": "configs:979",
+      "id": "configs:1125",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "do_versions_1.json",
@@ -67,7 +67,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_Cache/do_versions_1.json"
     },
     {
-      "id": "configs:980",
+      "id": "configs:1126",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "do_versions_128.json",
@@ -83,7 +83,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_Cache/do_versions_128.json"
     },
     {
-      "id": "configs:981",
+      "id": "configs:1127",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "do_versions_16.json",
@@ -99,7 +99,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_Cache/do_versions_16.json"
     },
     {
-      "id": "configs:982",
+      "id": "configs:1128",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "do_versions_256.json",
@@ -115,7 +115,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_Cache/do_versions_256.json"
     },
     {
-      "id": "configs:983",
+      "id": "configs:1129",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "do_versions_32.json",
@@ -131,7 +131,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_Cache/do_versions_32.json"
     },
     {
-      "id": "configs:984",
+      "id": "configs:1130",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "do_versions_512.json",
@@ -147,7 +147,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_Cache/do_versions_512.json"
     },
     {
-      "id": "configs:985",
+      "id": "configs:1131",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "do_versions_64.json",
@@ -163,7 +163,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_Cache/do_versions_64.json"
     },
     {
-      "id": "configs:986",
+      "id": "configs:1132",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "so_defaults.json",
@@ -179,7 +179,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_Cache/so_defaults.json"
     },
     {
-      "id": "configs:987",
+      "id": "configs:1133",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_Core.Language.json",
@@ -195,7 +195,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_Core.Language.json"
     },
     {
-      "id": "configs:988",
+      "id": "configs:1134",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_GlobalSettings.json",
@@ -211,7 +211,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_GlobalSettings.json"
     },
     {
-      "id": "configs:989",
+      "id": "configs:1135",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.BattlePass.BattlePassConfig.json",
@@ -227,7 +227,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.BattlePass.BattlePassConfig.json"
     },
     {
-      "id": "configs:990",
+      "id": "configs:1136",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.BattlePass.GameEvent.json",
@@ -243,7 +243,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.BattlePass.GameEvent.json"
     },
     {
-      "id": "configs:991",
+      "id": "configs:1137",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.BattlePass.RewardLine.json",
@@ -259,7 +259,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.BattlePass.RewardLine.json"
     },
     {
-      "id": "configs:992",
+      "id": "configs:1138",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.DailyBonus.json",
@@ -275,7 +275,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.DailyBonus.json"
     },
     {
-      "id": "configs:993",
+      "id": "configs:1139",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.Store.Page.json",
@@ -291,7 +291,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.Store.Page.json"
     },
     {
-      "id": "configs:994",
+      "id": "configs:1140",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.Store.Slot.json",
@@ -307,7 +307,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.Store.Slot.json"
     },
     {
-      "id": "configs:995",
+      "id": "configs:1141",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.Store.SlotCooldown.json",
@@ -323,7 +323,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.Store.SlotCooldown.json"
     },
     {
-      "id": "configs:996",
+      "id": "configs:1142",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.Store.SlotLogicCooldown.json",
@@ -339,7 +339,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.Store.SlotLogicCooldown.json"
     },
     {
-      "id": "configs:997",
+      "id": "configs:1143",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.Store.SlotLogicMultiplier.json",
@@ -355,7 +355,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.Store.SlotLogicMultiplier.json"
     },
     {
-      "id": "configs:998",
+      "id": "configs:1144",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.Store.SlotLogicPeriod.json",
@@ -371,7 +371,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.Store.SlotLogicPeriod.json"
     },
     {
-      "id": "configs:999",
+      "id": "configs:1145",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.Store.SlotMultiplier.json",
@@ -387,7 +387,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.Store.SlotMultiplier.json"
     },
     {
-      "id": "configs:1000",
+      "id": "configs:1146",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.Store.SlotPeriod.json",
@@ -403,7 +403,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.Store.SlotPeriod.json"
     },
     {
-      "id": "configs:1001",
+      "id": "configs:1147",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.Tasks.TaskCompleteLevels.json",
@@ -419,7 +419,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.Tasks.TaskCompleteLevels.json"
     },
     {
-      "id": "configs:1002",
+      "id": "configs:1148",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.Tasks.TaskCompleteLevelsStreak.json",
@@ -435,7 +435,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.Tasks.TaskCompleteLevelsStreak.json"
     },
     {
-      "id": "configs:1003",
+      "id": "configs:1149",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.Tasks.TaskItem.json",
@@ -451,7 +451,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.Tasks.TaskItem.json"
     },
     {
-      "id": "configs:1004",
+      "id": "configs:1150",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "en.json",
@@ -467,7 +467,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_Localization/en.json"
     },
     {
-      "id": "configs:1005",
+      "id": "configs:1151",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_Notifications.RemoteNotification.json",
@@ -483,7 +483,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_Notifications.RemoteNotification.json"
     },
     {
-      "id": "configs:1006",
+      "id": "configs:1152",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_RVCap.RVCapConfig.json",
@@ -499,7 +499,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_RVCap.RVCapConfig.json"
     },
     {
-      "id": "configs:1007",
+      "id": "configs:1153",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_RVCap.RVPlacementCapData.json",
@@ -515,7 +515,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_RVCap.RVPlacementCapData.json"
     },
     {
-      "id": "configs:1008",
+      "id": "configs:1154",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Analytics.ABTest.json",
@@ -531,7 +531,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Analytics.ABTest.json"
     },
     {
-      "id": "configs:1009",
+      "id": "configs:1155",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Analytics.ABTestVariant.json",
@@ -547,7 +547,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Analytics.ABTestVariant.json"
     },
     {
-      "id": "configs:1010",
+      "id": "configs:1156",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.AssetsLifeTime.json",
@@ -563,7 +563,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.AssetsLifeTime.json"
     },
     {
-      "id": "configs:1011",
+      "id": "configs:1157",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.ABTestCondition.json",
@@ -579,7 +579,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.ABTestCondition.json"
     },
     {
-      "id": "configs:1012",
+      "id": "configs:1158",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.ActiveEvent.json",
@@ -595,7 +595,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.ActiveEvent.json"
     },
     {
-      "id": "configs:1013",
+      "id": "configs:1159",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.ActiveOffer.json",
@@ -611,7 +611,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.ActiveOffer.json"
     },
     {
-      "id": "configs:1014",
+      "id": "configs:1160",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.And.json",
@@ -627,7 +627,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.And.json"
     },
     {
-      "id": "configs:1015",
+      "id": "configs:1161",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.AppVersion.json",
@@ -643,7 +643,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.AppVersion.json"
     },
     {
-      "id": "configs:1016",
+      "id": "configs:1162",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.BalancyPlatform.json",
@@ -659,7 +659,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.BalancyPlatform.json"
     },
     {
-      "id": "configs:1017",
+      "id": "configs:1163",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.Country.json",
@@ -675,7 +675,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.Country.json"
     },
     {
-      "id": "configs:1018",
+      "id": "configs:1164",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.DatesRage.json",
@@ -691,7 +691,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.DatesRage.json"
     },
     {
-      "id": "configs:1019",
+      "id": "configs:1165",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.DayOfTheWeek.json",
@@ -707,7 +707,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.DayOfTheWeek.json"
     },
     {
-      "id": "configs:1020",
+      "id": "configs:1166",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.Empty.json",
@@ -723,7 +723,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.Empty.json"
     },
     {
-      "id": "configs:1021",
+      "id": "configs:1167",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.EngineVersion.json",
@@ -739,7 +739,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.EngineVersion.json"
     },
     {
-      "id": "configs:1022",
+      "id": "configs:1168",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.InstallVersion.json",
@@ -755,7 +755,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.InstallVersion.json"
     },
     {
-      "id": "configs:1023",
+      "id": "configs:1169",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.InventoryItems.json",
@@ -771,7 +771,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.InventoryItems.json"
     },
     {
-      "id": "configs:1024",
+      "id": "configs:1170",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.Not.json",
@@ -787,7 +787,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.Not.json"
     },
     {
-      "id": "configs:1025",
+      "id": "configs:1171",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.Or.json",
@@ -803,7 +803,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.Or.json"
     },
     {
-      "id": "configs:1026",
+      "id": "configs:1172",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.Platform.json",
@@ -819,7 +819,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.Platform.json"
     },
     {
-      "id": "configs:1027",
+      "id": "configs:1173",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.ProductWasPurchased.json",
@@ -835,7 +835,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.ProductWasPurchased.json"
     },
     {
-      "id": "configs:1028",
+      "id": "configs:1174",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.ProfileFieldBool.json",
@@ -851,7 +851,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.ProfileFieldBool.json"
     },
     {
-      "id": "configs:1029",
+      "id": "configs:1175",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.ProfileFieldInRange.json",
@@ -867,7 +867,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.ProfileFieldInRange.json"
     },
     {
-      "id": "configs:1030",
+      "id": "configs:1176",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.ProfileFieldList.json",
@@ -883,7 +883,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.ProfileFieldList.json"
     },
     {
-      "id": "configs:1031",
+      "id": "configs:1177",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.ProfileFieldLong.json",
@@ -899,7 +899,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.ProfileFieldLong.json"
     },
     {
-      "id": "configs:1032",
+      "id": "configs:1178",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.ProfileFieldNumber.json",
@@ -915,7 +915,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.ProfileFieldNumber.json"
     },
     {
-      "id": "configs:1033",
+      "id": "configs:1179",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.ProfileFieldString.json",
@@ -931,7 +931,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.ProfileFieldString.json"
     },
     {
-      "id": "configs:1034",
+      "id": "configs:1180",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.Revenue.json",
@@ -947,7 +947,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.Revenue.json"
     },
     {
-      "id": "configs:1035",
+      "id": "configs:1181",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.SegmentCondition.json",
@@ -963,7 +963,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.SegmentCondition.json"
     },
     {
-      "id": "configs:1036",
+      "id": "configs:1182",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.StoreItemWasPurchased.json",
@@ -979,7 +979,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.StoreItemWasPurchased.json"
     },
     {
-      "id": "configs:1037",
+      "id": "configs:1183",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.SystemLanguage.json",
@@ -995,7 +995,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.SystemLanguage.json"
     },
     {
-      "id": "configs:1038",
+      "id": "configs:1184",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.TimeOfTheDay.json",
@@ -1011,7 +1011,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.TimeOfTheDay.json"
     },
     {
-      "id": "configs:1039",
+      "id": "configs:1185",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.TimeRage.json",
@@ -1027,7 +1027,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.TimeRage.json"
     },
     {
-      "id": "configs:1040",
+      "id": "configs:1186",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.GameConfig.json",
@@ -1043,7 +1043,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.GameConfig.json"
     },
     {
-      "id": "configs:1041",
+      "id": "configs:1187",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.GameEvent.json",
@@ -1059,7 +1059,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.GameEvent.json"
     },
     {
-      "id": "configs:1042",
+      "id": "configs:1188",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.GameOffer.json",
@@ -1075,7 +1075,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.GameOffer.json"
     },
     {
-      "id": "configs:1043",
+      "id": "configs:1189",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.GameOfferGroup.json",
@@ -1091,7 +1091,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.GameOfferGroup.json"
     },
     {
-      "id": "configs:1044",
+      "id": "configs:1190",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.InventoryConfig.json",
@@ -1107,7 +1107,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.InventoryConfig.json"
     },
     {
-      "id": "configs:1045",
+      "id": "configs:1191",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Item.json",
@@ -1123,7 +1123,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Item.json"
     },
     {
-      "id": "configs:1046",
+      "id": "configs:1192",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.ItemComponent.Bundle.json",
@@ -1139,7 +1139,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.ItemComponent.Bundle.json"
     },
     {
-      "id": "configs:1047",
+      "id": "configs:1193",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.ItemComponent.Decay.json",
@@ -1155,7 +1155,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.ItemComponent.Decay.json"
     },
     {
-      "id": "configs:1048",
+      "id": "configs:1194",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataAsset.json",
@@ -1171,7 +1171,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataAsset.json"
     },
     {
-      "id": "configs:1049",
+      "id": "configs:1195",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataBool.json",
@@ -1187,7 +1187,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataBool.json"
     },
     {
-      "id": "configs:1050",
+      "id": "configs:1196",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataColor.json",
@@ -1203,7 +1203,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataColor.json"
     },
     {
-      "id": "configs:1051",
+      "id": "configs:1197",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataDateTime.json",
@@ -1219,7 +1219,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataDateTime.json"
     },
     {
-      "id": "configs:1052",
+      "id": "configs:1198",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataDocument.json",
@@ -1235,7 +1235,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataDocument.json"
     },
     {
-      "id": "configs:1053",
+      "id": "configs:1199",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataDuration.json",
@@ -1251,7 +1251,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataDuration.json"
     },
     {
-      "id": "configs:1054",
+      "id": "configs:1200",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataEnum.json",
@@ -1267,7 +1267,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataEnum.json"
     },
     {
-      "id": "configs:1055",
+      "id": "configs:1201",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataFloat.json",
@@ -1283,7 +1283,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataFloat.json"
     },
     {
-      "id": "configs:1056",
+      "id": "configs:1202",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataImage.json",
@@ -1299,7 +1299,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataImage.json"
     },
     {
-      "id": "configs:1057",
+      "id": "configs:1203",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataInt.json",
@@ -1315,7 +1315,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataInt.json"
     },
     {
-      "id": "configs:1058",
+      "id": "configs:1204",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataListDocument.json",
@@ -1331,7 +1331,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataListDocument.json"
     },
     {
-      "id": "configs:1059",
+      "id": "configs:1205",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataListFloat.json",
@@ -1347,7 +1347,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataListFloat.json"
     },
     {
-      "id": "configs:1060",
+      "id": "configs:1206",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataListInt.json",
@@ -1363,7 +1363,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataListInt.json"
     },
     {
-      "id": "configs:1061",
+      "id": "configs:1207",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataListString.json",
@@ -1379,7 +1379,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataListString.json"
     },
     {
-      "id": "configs:1062",
+      "id": "configs:1208",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataLocalizedString.json",
@@ -1395,7 +1395,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataLocalizedString.json"
     },
     {
-      "id": "configs:1063",
+      "id": "configs:1209",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataLocalizedStringNew.json",
@@ -1411,7 +1411,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataLocalizedStringNew.json"
     },
     {
-      "id": "configs:1064",
+      "id": "configs:1210",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataLong.json",
@@ -1427,7 +1427,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataLong.json"
     },
     {
-      "id": "configs:1065",
+      "id": "configs:1211",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataProduct.json",
@@ -1443,7 +1443,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataProduct.json"
     },
     {
-      "id": "configs:1066",
+      "id": "configs:1212",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataString.json",
@@ -1459,7 +1459,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataString.json"
     },
     {
-      "id": "configs:1067",
+      "id": "configs:1213",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideInfo.json",
@@ -1475,7 +1475,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideInfo.json"
     },
     {
-      "id": "configs:1068",
+      "id": "configs:1214",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Segment.json",
@@ -1491,7 +1491,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Segment.json"
     },
     {
-      "id": "configs:1069",
+      "id": "configs:1215",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.SegmentOption.json",
@@ -1507,7 +1507,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.SegmentOption.json"
     },
     {
-      "id": "configs:1070",
+      "id": "configs:1216",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.SmartConfig.json",
@@ -1523,7 +1523,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.SmartConfig.json"
     },
     {
-      "id": "configs:1071",
+      "id": "configs:1217",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.StoreItem.json",
@@ -1539,7 +1539,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.StoreItem.json"
     },
     {
-      "id": "configs:1072",
+      "id": "configs:1218",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_UnnyProducts.json",
@@ -1555,7 +1555,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_UnnyProducts.json"
     },
     {
-      "id": "configs:1073",
+      "id": "configs:1219",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_versions.json",
@@ -1571,7 +1571,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_versions.json"
     },
     {
-      "id": "configs:1074",
+      "id": "configs:1220",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "versions.json",
@@ -1587,7 +1587,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_VisualScripting/versions.json"
     },
     {
-      "id": "configs:1075",
+      "id": "configs:1221",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "balancy_files_manifest.txt",

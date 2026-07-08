@@ -1,0 +1,785 @@
+{
+  "version": 1,
+  "id": "unity_data__bin_Data__d866070c81c4ea749b60d2854567cea1",
+  "name": "d866070c81c4ea749b60d2854567cea1",
+  "category": "unity-data",
+  "sourcePath": "assets/original_unity/unity_data/bin_Data/d866070c81c4ea749b60d2854567cea1",
+  "objectCounts": {
+    "CanvasRenderer": 4,
+    "GameObject": 6,
+    "MonoBehaviour": 20,
+    "RectTransform": 6
+  },
+  "rootIds": [
+    "3"
+  ],
+  "nodeCount": 6,
+  "componentCount": 24,
+  "componentTypeCounts": {
+    "CanvasRenderer": 4,
+    "MonoBehaviour": 20
+  },
+  "referencedAssetCount": 0,
+  "sceneSettingCount": 0,
+  "nodes": {
+    "1": {
+      "id": "1",
+      "name": "SR_SelectionToggle",
+      "active": true,
+      "layer": 5,
+      "tag": 0,
+      "parent": "6",
+      "children": [],
+      "path": "Category/SR_HeaderButton/SR_SelectionToggle",
+      "transformId": "12",
+      "transform": {
+        "type": "RectTransform",
+        "localPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "localRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "localScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "anchorMin": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "anchorMax": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "anchoredPosition": {
+          "x": 0.0,
+          "y": 0.5
+        },
+        "sizeDelta": {
+          "x": 0.0,
+          "y": -1.0
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "componentTypes": [
+        "CanvasRenderer",
+        "MonoBehaviour",
+        "MonoBehaviour",
+        "MonoBehaviour",
+        "MonoBehaviour",
+        "MonoBehaviour"
+      ]
+    },
+    "2": {
+      "id": "2",
+      "name": "SR_BG",
+      "active": true,
+      "layer": 5,
+      "tag": 0,
+      "parent": "6",
+      "children": [],
+      "path": "Category/SR_HeaderButton/SR_BG",
+      "transformId": "16",
+      "transform": {
+        "type": "RectTransform",
+        "localPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "localRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "localScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "anchorMin": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "anchorMax": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "anchoredPosition": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "sizeDelta": {
+          "x": -10.0,
+          "y": -10.0
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "componentTypes": [
+        "CanvasRenderer",
+        "MonoBehaviour",
+        "MonoBehaviour",
+        "MonoBehaviour"
+      ]
+    },
+    "3": {
+      "id": "3",
+      "name": "Category",
+      "active": true,
+      "layer": 5,
+      "tag": 0,
+      "parent": null,
+      "children": [
+        "6"
+      ],
+      "path": "Category",
+      "transformId": "14",
+      "transform": {
+        "type": "RectTransform",
+        "localPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "localRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "localScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "anchorMin": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "anchorMax": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "anchoredPosition": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "sizeDelta": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "pivot": {
+          "x": 0.0,
+          "y": 1.0
+        }
+      },
+      "componentTypes": [
+        "MonoBehaviour",
+        "MonoBehaviour",
+        "MonoBehaviour"
+      ]
+    },
+    "4": {
+      "id": "4",
+      "name": "SR_Header",
+      "active": true,
+      "layer": 5,
+      "tag": 0,
+      "parent": "6",
+      "children": [],
+      "path": "Category/SR_HeaderButton/SR_Header",
+      "transformId": "15",
+      "transform": {
+        "type": "RectTransform",
+        "localPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "localRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "localScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "anchorMin": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "anchorMax": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "anchoredPosition": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "sizeDelta": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "pivot": {
+          "x": 0.0,
+          "y": 1.0
+        }
+      },
+      "componentTypes": [
+        "CanvasRenderer",
+        "MonoBehaviour",
+        "MonoBehaviour",
+        "MonoBehaviour"
+      ]
+    },
+    "5": {
+      "id": "5",
+      "name": "SR_Indicator",
+      "active": true,
+      "layer": 5,
+      "tag": 0,
+      "parent": "6",
+      "children": [],
+      "path": "Category/SR_HeaderButton/SR_Indicator",
+      "transformId": "11",
+      "transform": {
+        "type": "RectTransform",
+        "localPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "localRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "localScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "anchorMin": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "anchorMax": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "anchoredPosition": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "sizeDelta": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "componentTypes": [
+        "CanvasRenderer",
+        "MonoBehaviour",
+        "MonoBehaviour",
+        "MonoBehaviour"
+      ]
+    },
+    "6": {
+      "id": "6",
+      "name": "SR_HeaderButton",
+      "active": true,
+      "layer": 5,
+      "tag": 0,
+      "parent": "3",
+      "children": [
+        "5",
+        "2",
+        "4",
+        "1"
+      ],
+      "path": "Category/SR_HeaderButton",
+      "transformId": "13",
+      "transform": {
+        "type": "RectTransform",
+        "localPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "localRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "localScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "anchorMin": {
+          "x": 0.0,
+          "y": 1.0
+        },
+        "anchorMax": {
+          "x": 0.0,
+          "y": 1.0
+        },
+        "anchoredPosition": {
+          "x": 5.0,
+          "y": -17.0
+        },
+        "sizeDelta": {
+          "x": 0.0,
+          "y": 40.0
+        },
+        "pivot": {
+          "x": 0.0,
+          "y": 0.5
+        }
+      },
+      "componentTypes": [
+        "MonoBehaviour",
+        "MonoBehaviour",
+        "MonoBehaviour"
+      ]
+    }
+  },
+  "components": {
+    "8": {
+      "id": "8",
+      "type": "CanvasRenderer",
+      "name": "",
+      "enabled": null,
+      "gameObject": "1",
+      "script": null,
+      "references": [
+        {
+          "field": "m_GameObject",
+          "fileId": 0,
+          "pathId": "1"
+        }
+      ],
+      "properties": {
+        "m_CullTransparentMesh": true
+      }
+    },
+    "31": {
+      "id": "31",
+      "type": "MonoBehaviour",
+      "error": {
+        "pathId": "31",
+        "type": "MonoBehaviour",
+        "error": "ValueError",
+        "message": "Expected to read 352 bytes, but only read 36 bytes"
+      }
+    },
+    "21": {
+      "id": "21",
+      "type": "MonoBehaviour",
+      "error": {
+        "pathId": "21",
+        "type": "MonoBehaviour",
+        "error": "ValueError",
+        "message": "Expected to read 68 bytes, but only read 36 bytes"
+      }
+    },
+    "35": {
+      "id": "35",
+      "type": "MonoBehaviour",
+      "error": {
+        "pathId": "35",
+        "type": "MonoBehaviour",
+        "error": "ValueError",
+        "message": "Expected to read 140 bytes, but only read 36 bytes"
+      }
+    },
+    "33": {
+      "id": "33",
+      "type": "MonoBehaviour",
+      "error": {
+        "pathId": "33",
+        "type": "MonoBehaviour",
+        "error": "ValueError",
+        "message": "Expected to read 68 bytes, but only read 36 bytes"
+      }
+    },
+    "22": {
+      "id": "22",
+      "type": "MonoBehaviour",
+      "name": "",
+      "enabled": 1,
+      "gameObject": "1",
+      "script": {
+        "fileId": 1,
+        "pathId": "1832"
+      },
+      "references": [
+        {
+          "field": "m_GameObject",
+          "fileId": 0,
+          "pathId": "1"
+        },
+        {
+          "field": "m_Script",
+          "fileId": 1,
+          "pathId": "1832"
+        }
+      ],
+      "properties": {}
+    },
+    "9": {
+      "id": "9",
+      "type": "CanvasRenderer",
+      "name": "",
+      "enabled": null,
+      "gameObject": "2",
+      "script": null,
+      "references": [
+        {
+          "field": "m_GameObject",
+          "fileId": 0,
+          "pathId": "2"
+        }
+      ],
+      "properties": {
+        "m_CullTransparentMesh": true
+      }
+    },
+    "34": {
+      "id": "34",
+      "type": "MonoBehaviour",
+      "error": {
+        "pathId": "34",
+        "type": "MonoBehaviour",
+        "error": "ValueError",
+        "message": "Expected to read 140 bytes, but only read 36 bytes"
+      }
+    },
+    "24": {
+      "id": "24",
+      "type": "MonoBehaviour",
+      "error": {
+        "pathId": "24",
+        "type": "MonoBehaviour",
+        "error": "ValueError",
+        "message": "Expected to read 68 bytes, but only read 36 bytes"
+      }
+    },
+    "20": {
+      "id": "20",
+      "type": "MonoBehaviour",
+      "error": {
+        "pathId": "20",
+        "type": "MonoBehaviour",
+        "error": "ValueError",
+        "message": "Expected to read 68 bytes, but only read 36 bytes"
+      }
+    },
+    "28": {
+      "id": "28",
+      "type": "MonoBehaviour",
+      "error": {
+        "pathId": "28",
+        "type": "MonoBehaviour",
+        "error": "ValueError",
+        "message": "Expected to read 68 bytes, but only read 36 bytes"
+      }
+    },
+    "26": {
+      "id": "26",
+      "type": "MonoBehaviour",
+      "error": {
+        "pathId": "26",
+        "type": "MonoBehaviour",
+        "error": "ValueError",
+        "message": "Expected to read 124 bytes, but only read 36 bytes"
+      }
+    },
+    "17": {
+      "id": "17",
+      "type": "MonoBehaviour",
+      "name": "SR_",
+      "enabled": 1,
+      "gameObject": "3",
+      "script": {
+        "fileId": 1,
+        "pathId": "1051"
+      },
+      "references": [
+        {
+          "field": "m_GameObject",
+          "fileId": 0,
+          "pathId": "3"
+        },
+        {
+          "field": "m_Script",
+          "fileId": 1,
+          "pathId": "1051"
+        }
+      ],
+      "properties": {
+        "m_Name": "SR_"
+      }
+    },
+    "10": {
+      "id": "10",
+      "type": "CanvasRenderer",
+      "name": "",
+      "enabled": null,
+      "gameObject": "4",
+      "script": null,
+      "references": [
+        {
+          "field": "m_GameObject",
+          "fileId": 0,
+          "pathId": "4"
+        }
+      ],
+      "properties": {
+        "m_CullTransparentMesh": true
+      }
+    },
+    "29": {
+      "id": "29",
+      "type": "MonoBehaviour",
+      "error": {
+        "pathId": "29",
+        "type": "MonoBehaviour",
+        "error": "ValueError",
+        "message": "Expected to read 164 bytes, but only read 36 bytes"
+      }
+    },
+    "30": {
+      "id": "30",
+      "type": "MonoBehaviour",
+      "error": {
+        "pathId": "30",
+        "type": "MonoBehaviour",
+        "error": "ValueError",
+        "message": "Expected to read 68 bytes, but only read 36 bytes"
+      }
+    },
+    "18": {
+      "id": "18",
+      "type": "MonoBehaviour",
+      "error": {
+        "pathId": "18",
+        "type": "MonoBehaviour",
+        "error": "ValueError",
+        "message": "Expected to read 68 bytes, but only read 36 bytes"
+      }
+    },
+    "7": {
+      "id": "7",
+      "type": "CanvasRenderer",
+      "name": "",
+      "enabled": null,
+      "gameObject": "5",
+      "script": null,
+      "references": [
+        {
+          "field": "m_GameObject",
+          "fileId": 0,
+          "pathId": "5"
+        }
+      ],
+      "properties": {
+        "m_CullTransparentMesh": true
+      }
+    },
+    "23": {
+      "id": "23",
+      "type": "MonoBehaviour",
+      "error": {
+        "pathId": "23",
+        "type": "MonoBehaviour",
+        "error": "ValueError",
+        "message": "Expected to read 140 bytes, but only read 36 bytes"
+      }
+    },
+    "25": {
+      "id": "25",
+      "type": "MonoBehaviour",
+      "error": {
+        "pathId": "25",
+        "type": "MonoBehaviour",
+        "error": "ValueError",
+        "message": "Expected to read 80 bytes, but only read 36 bytes"
+      }
+    },
+    "32": {
+      "id": "32",
+      "type": "MonoBehaviour",
+      "error": {
+        "pathId": "32",
+        "type": "MonoBehaviour",
+        "error": "ValueError",
+        "message": "Expected to read 68 bytes, but only read 36 bytes"
+      }
+    },
+    "27": {
+      "id": "27",
+      "type": "MonoBehaviour",
+      "error": {
+        "pathId": "27",
+        "type": "MonoBehaviour",
+        "error": "ValueError",
+        "message": "Expected to read 88 bytes, but only read 36 bytes"
+      }
+    },
+    "36": {
+      "id": "36",
+      "type": "MonoBehaviour",
+      "error": {
+        "pathId": "36",
+        "type": "MonoBehaviour",
+        "error": "ValueError",
+        "message": "Expected to read 64 bytes, but only read 32 bytes"
+      }
+    },
+    "19": {
+      "id": "19",
+      "type": "MonoBehaviour",
+      "error": {
+        "pathId": "19",
+        "type": "MonoBehaviour",
+        "error": "ValueError",
+        "message": "Expected to read 40 bytes, but only read 32 bytes"
+      }
+    }
+  },
+  "referencedAssets": [],
+  "sceneSettings": [],
+  "extractionErrors": [
+    {
+      "pathId": "31",
+      "type": "MonoBehaviour",
+      "error": "ValueError",
+      "message": "Expected to read 352 bytes, but only read 36 bytes"
+    },
+    {
+      "pathId": "21",
+      "type": "MonoBehaviour",
+      "error": "ValueError",
+      "message": "Expected to read 68 bytes, but only read 36 bytes"
+    },
+    {
+      "pathId": "35",
+      "type": "MonoBehaviour",
+      "error": "ValueError",
+      "message": "Expected to read 140 bytes, but only read 36 bytes"
+    },
+    {
+      "pathId": "33",
+      "type": "MonoBehaviour",
+      "error": "ValueError",
+      "message": "Expected to read 68 bytes, but only read 36 bytes"
+    },
+    {
+      "pathId": "34",
+      "type": "MonoBehaviour",
+      "error": "ValueError",
+      "message": "Expected to read 140 bytes, but only read 36 bytes"
+    },
+    {
+      "pathId": "24",
+      "type": "MonoBehaviour",
+      "error": "ValueError",
+      "message": "Expected to read 68 bytes, but only read 36 bytes"
+    },
+    {
+      "pathId": "20",
+      "type": "MonoBehaviour",
+      "error": "ValueError",
+      "message": "Expected to read 68 bytes, but only read 36 bytes"
+    },
+    {
+      "pathId": "28",
+      "type": "MonoBehaviour",
+      "error": "ValueError",
+      "message": "Expected to read 68 bytes, but only read 36 bytes"
+    },
+    {
+      "pathId": "26",
+      "type": "MonoBehaviour",
+      "error": "ValueError",
+      "message": "Expected to read 124 bytes, but only read 36 bytes"
+    },
+    {
+      "pathId": "29",
+      "type": "MonoBehaviour",
+      "error": "ValueError",
+      "message": "Expected to read 164 bytes, but only read 36 bytes"
+    },
+    {
+      "pathId": "30",
+      "type": "MonoBehaviour",
+      "error": "ValueError",
+      "message": "Expected to read 68 bytes, but only read 36 bytes"
+    },
+    {
+      "pathId": "18",
+      "type": "MonoBehaviour",
+      "error": "ValueError",
+      "message": "Expected to read 68 bytes, but only read 36 bytes"
+    },
+    {
+      "pathId": "23",
+      "type": "MonoBehaviour",
+      "error": "ValueError",
+      "message": "Expected to read 140 bytes, but only read 36 bytes"
+    },
+    {
+      "pathId": "25",
+      "type": "MonoBehaviour",
+      "error": "ValueError",
+      "message": "Expected to read 80 bytes, but only read 36 bytes"
+    },
+    {
+      "pathId": "32",
+      "type": "MonoBehaviour",
+      "error": "ValueError",
+      "message": "Expected to read 68 bytes, but only read 36 bytes"
+    },
+    {
+      "pathId": "27",
+      "type": "MonoBehaviour",
+      "error": "ValueError",
+      "message": "Expected to read 88 bytes, but only read 36 bytes"
+    },
+    {
+      "pathId": "36",
+      "type": "MonoBehaviour",
+      "error": "ValueError",
+      "message": "Expected to read 64 bytes, but only read 32 bytes"
+    },
+    {
+      "pathId": "19",
+      "type": "MonoBehaviour",
+      "error": "ValueError",
+      "message": "Expected to read 40 bytes, but only read 32 bytes"
+    }
+  ]
+}

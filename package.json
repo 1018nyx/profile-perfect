@@ -5,6 +5,7 @@
   "private": true,
   "scripts": {
     "convert-original": "node tools/convert-original-assets.mjs",
+    "convert-scenes": "node tools/generate-cocos-scenes.mjs",
     "preview-web": "node tools/preview-server.mjs"
   },
   "creator": {

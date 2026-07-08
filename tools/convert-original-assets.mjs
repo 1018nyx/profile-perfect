@@ -31,6 +31,12 @@ const groups = {
     outputSubdir: 'unity-data',
     importType: 'BufferAsset',
   },
+  scenes: {
+    label: 'Extracted Unity scene and prefab hierarchies',
+    source: 'assets/original_unity/unity_bundles + assets/original_unity/unity_data',
+    outputSubdir: 'scenes',
+    importType: 'JsonAsset',
+  },
   audio: {
     label: 'Extracted Unity AudioClip samples',
     source: 'assets/original_unity/unity_bundles + assets/original_unity/unity_data',
@@ -354,14 +360,64 @@ async function convertUnityAudio() {
   }
 }
 
+async function convertUnityScenes() {
+  const manifestPath = path.join(projectRoot, 'temp', 'original-scene-extract.json');
+  const scriptPath = path.join(projectRoot, 'tools', 'extract-unity-scenes.py');
+  const output = execFileSync(pythonExecutable(), [
+    scriptPath,
+    '--project',
+    projectRoot,
+    '--manifest',
+    manifestPath,
+  ], { encoding: 'utf8', maxBuffer: 128 * 1024 * 1024 });
+  if (output.trim()) console.log(output.trim());
+
+  const sceneManifest = JSON.parse(await fs.readFile(manifestPath, 'utf8'));
+  for (const sceneEntry of sceneManifest.entries || []) {
+    await addEntry({
+      group: 'scenes',
+      kind: sceneEntry.kind,
+      name: sceneEntry.name,
+      sourcePath: sceneEntry.sourcePath,
+      outputPath: path.join(projectRoot, sceneEntry.outputPath),
+      importType: 'JsonAsset',
+      originalExtension: path.extname(sceneEntry.sourcePath) || '.unity-data',
+      sha256: sceneEntry.sha256,
+      extra: {
+        sceneId: sceneEntry.id,
+        category: sceneEntry.category,
+        rootCount: sceneEntry.rootCount,
+        nodeCount: sceneEntry.nodeCount,
+        componentCount: sceneEntry.componentCount,
+        referencedAssetCount: sceneEntry.referencedAssetCount,
+        sceneSettingCount: sceneEntry.sceneSettingCount,
+        objectCounts: sceneEntry.objectCounts,
+      },
+    });
+  }
+
+  if (sceneManifest.errors?.length) {
+    warnings.push(`Scene extraction reported ${sceneManifest.errors.length} read errors; see ${projectRel(manifestPath)}`);
+  }
+}
+
+async function generateCocosScenes() {
+  const scriptPath = path.join(projectRoot, 'tools', 'generate-cocos-scenes.mjs');
+  const output = execFileSync(process.execPath, [
+    scriptPath,
+  ], { encoding: 'utf8', maxBuffer: 128 * 1024 * 1024 });
+  if (output.trim()) console.log(output.trim());
+}
+
 async function writeAudioMeta(audioEntry) {
   const outputPath = path.join(projectRoot, audioEntry.outputPath);
   const extension = path.extname(outputPath);
+  const metaPath = `${outputPath}.meta`;
   const meta = {
     ver: '1.0.0',
     importer: 'audio-clip',
     imported: true,
-    uuid: randomUUID(),
+    uuid: await readExistingUuid(metaPath),
     files: [
       extension,
       '.json',
@@ -371,7 +427,17 @@ async function writeAudioMeta(audioEntry) {
       downloadMode: 0,
     },
   };
-  await fs.writeFile(`${outputPath}.meta`, `${JSON.stringify(meta, null, 2)}\n`, 'utf8');
+  await fs.writeFile(metaPath, `${JSON.stringify(meta, null, 2)}\n`, 'utf8');
+}
+
+async function readExistingUuid(metaPath) {
+  try {
+    const meta = JSON.parse(await fs.readFile(metaPath, 'utf8'));
+    if (typeof meta.uuid === 'string' && meta.uuid) return meta.uuid;
+  } catch {
+    // Missing or malformed generated metadata is recreated below.
+  }
+  return randomUUID();
 }
 
 function listZipEntries(zipPath) {
@@ -505,6 +571,9 @@ async function existingExtractedAssetsSummary() {
   const textureManifest = await readJsonIfExists('assets/resources/data/texture-manifest.json');
   const pageCatalog = await readJsonIfExists('assets/resources/data/original-ui-page-catalog.json');
   const hierarchy = await readJsonIfExists('assets/resources/data/original-ui-hierarchy.json');
+  const sceneCatalog = await readJsonIfExists('assets/resources/data/original-scene-catalog.json');
+  const sceneHierarchy = await readJsonIfExists('assets/resources/data/original-scene-hierarchy.json');
+  const cocosSceneCatalog = await readJsonIfExists('assets/resources/data/cocos-scene-catalog.json');
   const originalResourceManifest = await readJsonIfExists('assets/resources/data/original-resource-manifest.json');
 
   return {
@@ -518,6 +587,13 @@ async function existingExtractedAssetsSummary() {
     uiNodes: Array.isArray(hierarchy?.bundles)
       ? hierarchy.bundles.reduce((sum, bundle) => sum + (bundle.nodeCount || Object.keys(bundle.nodes || {}).length), 0)
       : 0,
+    sceneSources: Array.isArray(sceneCatalog?.scenes) ? sceneCatalog.scenes.length : 0,
+    sceneNodes: sceneHierarchy?.totalNodes || sceneCatalog?.totalNodes || 0,
+    cocosSceneAssets: Array.isArray(cocosSceneCatalog?.scenes) ? cocosSceneCatalog.scenes.length : 0,
+    cocosSceneSprites: cocosSceneCatalog?.visualTotals?.sprites || 0,
+    cocosSceneLabels: cocosSceneCatalog?.visualTotals?.labels || 0,
+    cocosSceneSpriteRenderers: cocosSceneCatalog?.visualTotals?.spriteRenderers || 0,
+    cocosSceneMissingSpriteFrames: cocosSceneCatalog?.visualTotals?.missingSpriteFrames || 0,
     originalImportManifest: originalResourceManifest?.importedOriginalAssets || null,
   };
 }
@@ -586,6 +662,7 @@ async function writeManifest() {
       json: "resources.load('converted/balancy/<file-name>', JsonAsset, callback)",
       text: "resources.load('converted/balancy/balancy_files_manifest', TextAsset, callback)",
       binary: "resources.load('converted/unity-bundles/ui_assets_all.bundle', BufferAsset, callback)",
+      scene: "resources.load('converted/scenes/unity_bundles__mainlevel_airport_assets_all', JsonAsset, callback)",
       audio: "resources.load('converted/audio/ButtonClick1', AudioClip, callback)",
     },
     existingExtractedCocosAssets: await existingExtractedAssetsSummary(),
@@ -613,6 +690,8 @@ async function main() {
   await convertUnityBundles();
   await convertBalancyConfigs();
   await convertUnityData();
+  await convertUnityScenes();
+  await generateCocosScenes();
   await convertUnityAudio();
   await convertConfigsAndArchives();
   await writeManifest();

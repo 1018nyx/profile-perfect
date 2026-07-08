@@ -1,0 +1,170 @@
+{
+  "version": 1,
+  "id": "unity_data__bin_Data__b8b2730da8ec14db686316d122a0939e",
+  "name": "b8b2730da8ec14db686316d122a0939e",
+  "category": "unity-data",
+  "sourcePath": "assets/original_unity/unity_data/bin_Data/b8b2730da8ec14db686316d122a0939e",
+  "objectCounts": {
+    "Canvas": 1,
+    "GameObject": 1,
+    "MonoBehaviour": 3,
+    "RectTransform": 1
+  },
+  "rootIds": [
+    "1"
+  ],
+  "nodeCount": 1,
+  "componentCount": 4,
+  "componentTypeCounts": {
+    "Canvas": 1,
+    "MonoBehaviour": 3
+  },
+  "referencedAssetCount": 0,
+  "sceneSettingCount": 0,
+  "nodes": {
+    "1": {
+      "id": "1",
+      "name": "UnityUIRenderer",
+      "active": true,
+      "layer": 5,
+      "tag": 0,
+      "parent": null,
+      "children": [],
+      "path": "UnityUIRenderer",
+      "transformId": "3",
+      "transform": {
+        "type": "RectTransform",
+        "localPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "localRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "localScale": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "anchorMin": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "anchorMax": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "anchoredPosition": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "sizeDelta": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "pivot": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      },
+      "componentTypes": [
+        "Canvas",
+        "MonoBehaviour",
+        "MonoBehaviour",
+        "MonoBehaviour"
+      ]
+    }
+  },
+  "components": {
+    "2": {
+      "id": "2",
+      "type": "Canvas",
+      "name": "",
+      "enabled": 1,
+      "gameObject": "1",
+      "script": null,
+      "references": [
+        {
+          "field": "m_GameObject",
+          "fileId": 0,
+          "pathId": "1"
+        }
+      ],
+      "properties": {
+        "m_RenderMode": 0,
+        "m_Camera": {
+          "fileId": 0,
+          "pathId": null
+        },
+        "m_PlaneDistance": 100.0,
+        "m_PixelPerfect": false,
+        "m_ReceivesEvents": true,
+        "m_OverrideSorting": false,
+        "m_OverridePixelPerfect": false,
+        "m_SortingBucketNormalizedSize": 0.0,
+        "m_VertexColorAlwaysGammaSpace": false,
+        "m_AdditionalShaderChannelsFlag": 0,
+        "m_UpdateRectTransformForStandalone": 0,
+        "m_SortingLayerID": 0,
+        "m_SortingOrder": 1000,
+        "m_TargetDisplay": 0
+      }
+    },
+    "4": {
+      "id": "4",
+      "type": "MonoBehaviour",
+      "error": {
+        "pathId": "4",
+        "type": "MonoBehaviour",
+        "error": "ValueError",
+        "message": "Expected to read 80 bytes, but only read 32 bytes"
+      }
+    },
+    "5": {
+      "id": "5",
+      "type": "MonoBehaviour",
+      "error": {
+        "pathId": "5",
+        "type": "MonoBehaviour",
+        "error": "ValueError",
+        "message": "Expected to read 44 bytes, but only read 32 bytes"
+      }
+    },
+    "6": {
+      "id": "6",
+      "type": "MonoBehaviour",
+      "error": {
+        "pathId": "6",
+        "type": "MonoBehaviour",
+        "error": "ValueError",
+        "message": "Expected to read 36 bytes, but only read 32 bytes"
+      }
+    }
+  },
+  "referencedAssets": [],
+  "sceneSettings": [],
+  "extractionErrors": [
+    {
+      "pathId": "4",
+      "type": "MonoBehaviour",
+      "error": "ValueError",
+      "message": "Expected to read 80 bytes, but only read 32 bytes"
+    },
+    {
+      "pathId": "5",
+      "type": "MonoBehaviour",
+      "error": "ValueError",
+      "message": "Expected to read 44 bytes, but only read 32 bytes"
+    },
+    {
+      "pathId": "6",
+      "type": "MonoBehaviour",
+      "error": "ValueError",
+      "message": "Expected to read 36 bytes, but only read 32 bytes"
+    }
+  ]
+}

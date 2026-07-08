@@ -54,10 +54,15 @@ npm run convert-original
 - `assets/resources/converted/unity-bundles`: all 540 Unity bundles as `BufferAsset` `.bin` files.
 - `assets/resources/converted/balancy`: Balancy JSON/TextAsset configs.
 - `assets/resources/converted/unity-data`: Unity Data split files as `BufferAsset` `.bin` files.
+- `assets/resources/converted/scenes`: extracted Unity GameObject/Prefab scene hierarchies as Cocos `JsonAsset` files.
 - `assets/resources/converted/audio`: extracted Unity `AudioClip` samples as Cocos audio assets.
 - `assets/resources/converted/configs`: Unity services config plus extracted Balancy zip entries.
 - `assets/resources/converted/archives`: original APK assets zip as a loadable binary archive.
 - `assets/resources/data/cocos-converted-resource-manifest.json`: master runtime manifest.
+- `assets/resources/data/original-scene-catalog.json`: catalog of all extracted scene-like Unity sources.
+- `assets/resources/data/original-scene-hierarchy.json`: slim combined hierarchy for browsing original scene roots.
+- `assets/original_scenes`: generated Cocos `.scene` assets for every extracted Unity scene-like source, with Unity Image/SpriteRenderer mapped to `cc.Sprite` and Unity Text/TMP mapped to `cc.Label` where source data is available.
+- `assets/resources/data/cocos-scene-catalog.json`: catalog of generated Cocos scene paths and UUIDs.
 
 Cocos runtime helper:
 
