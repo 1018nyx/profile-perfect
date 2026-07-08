@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-08T12:22:55.487Z",
+  "generatedAt": "2026-07-08T12:32:10.157Z",
   "cocosCreatorVersion": "3.8.7",
   "source": {
     "xapk": "/Users/niuyaxue/Downloads/Profile+Perfect_0.9.1_APKPure.xapk",
@@ -16,7 +16,8 @@
   "loadExamples": {
     "json": "resources.load('converted/balancy/<file-name>', JsonAsset, callback)",
     "text": "resources.load('converted/balancy/balancy_files_manifest', TextAsset, callback)",
-    "binary": "resources.load('converted/unity-bundles/ui_assets_all.bundle', BufferAsset, callback)"
+    "binary": "resources.load('converted/unity-bundles/ui_assets_all.bundle', BufferAsset, callback)",
+    "audio": "resources.load('converted/audio/ButtonClick1', AudioClip, callback)"
   },
   "existingExtractedCocosAssets": {
     "sprites": 9609,
@@ -88,8 +89,8 @@
     }
   },
   "totals": {
-    "entries": 1046,
-    "bytes": 221625701
+    "entries": 1076,
+    "bytes": 225316523
   },
   "groups": {
     "unityBundles": {
@@ -123,6 +124,17 @@
       "bytes": 107588175,
       "kinds": [
         "unity-data-binary"
+      ]
+    },
+    "audio": {
+      "label": "Extracted Unity AudioClip samples",
+      "source": "assets/original_unity/unity_bundles + assets/original_unity/unity_data",
+      "output": "assets/resources/converted/audio",
+      "importType": "AudioClip",
+      "count": 30,
+      "bytes": 3690822,
+      "kinds": [
+        "unity-audio-clip"
       ]
     },
     "configs": {
@@ -166,6 +178,11 @@
       "outputPath": "assets/resources/converted/unity-data/index.json",
       "resourceLoadPath": "converted/unity-data/index",
       "count": 264
+    },
+    "audio": {
+      "outputPath": "assets/resources/converted/audio/index.json",
+      "resourceLoadPath": "converted/audio/index",
+      "count": 30
     },
     "configs": {
       "outputPath": "assets/resources/converted/configs/index.json",
@@ -13410,7 +13427,1128 @@
       "sha256": "ffa2c48eb8312737f83017f36d603c5776e17c3b8bfc63fa4449e65528d1a74a"
     },
     {
-      "id": "configs:946",
+      "id": "audio:946",
+      "group": "audio",
+      "kind": "unity-audio-clip",
+      "name": "Blinds2",
+      "originalExtension": ".wav",
+      "cocosExtension": ".wav",
+      "importType": "AudioClip",
+      "sourcePath": "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split0",
+      "outputPath": "assets/resources/converted/audio/Blinds2.wav",
+      "resourceLoadPath": "converted/audio/Blinds2",
+      "bytes": 70844,
+      "sha256": "9ed0928804e1859a69a8f87586f78805555d7a46fb3fb54f89ebd603da5cef56",
+      "clipName": "Blinds2",
+      "fileName": "Blinds2.wav",
+      "sources": [
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split0",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split1",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split10",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split11",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split12",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split13",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split14",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split15",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split16",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split17",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split18",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split19",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split2",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split20",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split21",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split22",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split23",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split24",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split25",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split26",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split27",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split28",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split29",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split3",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split30",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split31",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split32",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split4",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split5",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split6",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split7",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split8",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split9"
+      ],
+      "sourceCount": 33,
+      "channels": 1,
+      "frequency": 44100,
+      "bitsPerSample": 16,
+      "lengthSeconds": 0.8027210831642151,
+      "loadType": 0,
+      "compressionFormat": 1
+    },
+    {
+      "id": "audio:947",
+      "group": "audio",
+      "kind": "unity-audio-clip",
+      "name": "Blinds2_PitchUp",
+      "originalExtension": ".wav",
+      "cocosExtension": ".wav",
+      "importType": "AudioClip",
+      "sourcePath": "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split0",
+      "outputPath": "assets/resources/converted/audio/Blinds2_PitchUp.wav",
+      "resourceLoadPath": "converted/audio/Blinds2_PitchUp",
+      "bytes": 65896,
+      "sha256": "a813d2821ac305d54a3830aed17c3b2f8336a6deea4f10d94ee89f78b97e4b91",
+      "clipName": "Blinds2_PitchUp",
+      "fileName": "Blinds2_PitchUp.wav",
+      "sources": [
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split0",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split1",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split10",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split11",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split12",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split13",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split14",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split15",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split16",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split17",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split18",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split19",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split2",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split20",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split21",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split22",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split23",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split24",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split25",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split26",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split27",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split28",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split29",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split3",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split30",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split31",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split32",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split4",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split5",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split6",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split7",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split8",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split9"
+      ],
+      "sourceCount": 33,
+      "channels": 1,
+      "frequency": 44100,
+      "bitsPerSample": 16,
+      "lengthSeconds": 0.746621310710907,
+      "loadType": 0,
+      "compressionFormat": 1
+    },
+    {
+      "id": "audio:948",
+      "group": "audio",
+      "kind": "unity-audio-clip",
+      "name": "BoosterCollect",
+      "originalExtension": ".wav",
+      "cocosExtension": ".wav",
+      "importType": "AudioClip",
+      "sourcePath": "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split0",
+      "outputPath": "assets/resources/converted/audio/BoosterCollect.wav",
+      "resourceLoadPath": "converted/audio/BoosterCollect",
+      "bytes": 12732,
+      "sha256": "e4f20a3387fb65c295aa33080932fdff7c444c42c2e8660f7a68818d053ee9e8",
+      "clipName": "BoosterCollect",
+      "fileName": "BoosterCollect.wav",
+      "sources": [
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split0",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split1",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split2",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split3",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split4",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split5"
+      ],
+      "sourceCount": 6,
+      "channels": 1,
+      "frequency": 44100,
+      "bitsPerSample": 16,
+      "lengthSeconds": 0.14385487139225006,
+      "loadType": 0,
+      "compressionFormat": 1
+    },
+    {
+      "id": "audio:949",
+      "group": "audio",
+      "kind": "unity-audio-clip",
+      "name": "BoosterSpawn",
+      "originalExtension": ".wav",
+      "cocosExtension": ".wav",
+      "importType": "AudioClip",
+      "sourcePath": "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split0",
+      "outputPath": "assets/resources/converted/audio/BoosterSpawn.wav",
+      "resourceLoadPath": "converted/audio/BoosterSpawn",
+      "bytes": 68352,
+      "sha256": "cdeca85f8b624cb4700f73e5f968bf637ce0c0111df0f94088812d0a52ea2d75",
+      "clipName": "BoosterSpawn",
+      "fileName": "BoosterSpawn.wav",
+      "sources": [
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split0",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split1",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split2",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split3",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split4",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split5"
+      ],
+      "sourceCount": 6,
+      "channels": 1,
+      "frequency": 44100,
+      "bitsPerSample": 16,
+      "lengthSeconds": 0.7744671106338501,
+      "loadType": 0,
+      "compressionFormat": 1
+    },
+    {
+      "id": "audio:950",
+      "group": "audio",
+      "kind": "unity-audio-clip",
+      "name": "ButtonClick1",
+      "originalExtension": ".wav",
+      "cocosExtension": ".wav",
+      "importType": "AudioClip",
+      "sourcePath": "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split0",
+      "outputPath": "assets/resources/converted/audio/ButtonClick1.wav",
+      "resourceLoadPath": "converted/audio/ButtonClick1",
+      "bytes": 7196,
+      "sha256": "f51e7ca785642db7b69023335c67d429e363dfe33167441ca62881b851d38cd1",
+      "clipName": "ButtonClick1",
+      "fileName": "ButtonClick1.wav",
+      "sources": [
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split0",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split1",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split10",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split11",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split12",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split13",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split14",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split15",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split16",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split17",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split18",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split19",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split2",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split20",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split21",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split22",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split23",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split24",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split25",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split26",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split27",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split28",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split29",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split3",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split30",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split31",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split32",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split4",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split5",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split6",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split7",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split8",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split9"
+      ],
+      "sourceCount": 33,
+      "channels": 1,
+      "frequency": 44100,
+      "bitsPerSample": 16,
+      "lengthSeconds": 0.08108843863010406,
+      "loadType": 0,
+      "compressionFormat": 1
+    },
+    {
+      "id": "audio:951",
+      "group": "audio",
+      "kind": "unity-audio-clip",
+      "name": "CoinCollect1",
+      "originalExtension": ".wav",
+      "cocosExtension": ".wav",
+      "importType": "AudioClip",
+      "sourcePath": "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split0",
+      "outputPath": "assets/resources/converted/audio/CoinCollect1.wav",
+      "resourceLoadPath": "converted/audio/CoinCollect1",
+      "bytes": 20532,
+      "sha256": "0ad12ec661e8a5bf395480b3490e4c9e6f86637548920f3632daa3fdd8862be3",
+      "clipName": "CoinCollect1",
+      "fileName": "CoinCollect1.wav",
+      "sources": [
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split0",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split1",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split10",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split11",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split12",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split13",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split14",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split15",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split16",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split17",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split18",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split19",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split2",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split20",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split21",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split22",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split23",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split24",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split25",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split26",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split27",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split28",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split29",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split3",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split30",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split31",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split32",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split4",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split5",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split6",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split7",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split8",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split9"
+      ],
+      "sourceCount": 33,
+      "channels": 1,
+      "frequency": 44100,
+      "bitsPerSample": 16,
+      "lengthSeconds": 0.23229025304317474,
+      "loadType": 0,
+      "compressionFormat": 1
+    },
+    {
+      "id": "audio:952",
+      "group": "audio",
+      "kind": "unity-audio-clip",
+      "name": "CoinSpawn1",
+      "originalExtension": ".wav",
+      "cocosExtension": ".wav",
+      "importType": "AudioClip",
+      "sourcePath": "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split0",
+      "outputPath": "assets/resources/converted/audio/CoinSpawn1.wav",
+      "resourceLoadPath": "converted/audio/CoinSpawn1",
+      "bytes": 68352,
+      "sha256": "cdeca85f8b624cb4700f73e5f968bf637ce0c0111df0f94088812d0a52ea2d75",
+      "clipName": "CoinSpawn1",
+      "fileName": "CoinSpawn1.wav",
+      "sources": [
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split0",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split1",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split10",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split11",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split12",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split13",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split14",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split15",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split16",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split17",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split18",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split19",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split2",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split20",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split21",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split22",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split23",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split24",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split25",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split26",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split27",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split28",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split29",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split3",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split30",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split31",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split32",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split4",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split5",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split6",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split7",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split8",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split9"
+      ],
+      "sourceCount": 33,
+      "channels": 1,
+      "frequency": 44100,
+      "bitsPerSample": 16,
+      "lengthSeconds": 0.7744671106338501,
+      "loadType": 0,
+      "compressionFormat": 1
+    },
+    {
+      "id": "audio:953",
+      "group": "audio",
+      "kind": "unity-audio-clip",
+      "name": "Confetti1",
+      "originalExtension": ".wav",
+      "cocosExtension": ".wav",
+      "importType": "AudioClip",
+      "sourcePath": "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split0",
+      "outputPath": "assets/resources/converted/audio/Confetti1.wav",
+      "resourceLoadPath": "converted/audio/Confetti1",
+      "bytes": 31258,
+      "sha256": "00469b880a52094e5d128a6945135b5811316f7be8415ffac50175eae4a05699",
+      "clipName": "Confetti1",
+      "fileName": "Confetti1.wav",
+      "sources": [
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split0",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split1",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split2",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split3",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split4",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split5"
+      ],
+      "sourceCount": 6,
+      "channels": 1,
+      "frequency": 44100,
+      "bitsPerSample": 16,
+      "lengthSeconds": 0.3539002239704132,
+      "loadType": 0,
+      "compressionFormat": 1
+    },
+    {
+      "id": "audio:954",
+      "group": "audio",
+      "kind": "unity-audio-clip",
+      "name": "CorrectPlaced1",
+      "originalExtension": ".wav",
+      "cocosExtension": ".wav",
+      "importType": "AudioClip",
+      "sourcePath": "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split0",
+      "outputPath": "assets/resources/converted/audio/CorrectPlaced1.wav",
+      "resourceLoadPath": "converted/audio/CorrectPlaced1",
+      "bytes": 88244,
+      "sha256": "1af678ce6a1cdbdd3fda6d3c97af03dfc46f41061f7d110b1b41f659d3c2ddbe",
+      "clipName": "CorrectPlaced1",
+      "fileName": "CorrectPlaced1.wav",
+      "sources": [
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split0",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split1",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split2",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split3",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split4",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split5"
+      ],
+      "sourceCount": 6,
+      "channels": 1,
+      "frequency": 44100,
+      "bitsPerSample": 16,
+      "lengthSeconds": 1,
+      "loadType": 0,
+      "compressionFormat": 1
+    },
+    {
+      "id": "audio:955",
+      "group": "audio",
+      "kind": "unity-audio-clip",
+      "name": "CorrectSelected1",
+      "originalExtension": ".wav",
+      "cocosExtension": ".wav",
+      "importType": "AudioClip",
+      "sourcePath": "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split0",
+      "outputPath": "assets/resources/converted/audio/CorrectSelected1.wav",
+      "resourceLoadPath": "converted/audio/CorrectSelected1",
+      "bytes": 172352,
+      "sha256": "1fef3c0711bbd77643f1d5ca7c001ebcbb3cdf97931b93ee2126005e242ecc0e",
+      "clipName": "CorrectSelected1",
+      "fileName": "CorrectSelected1.wav",
+      "sources": [
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split0",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split1",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split2",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split3",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split4",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split5"
+      ],
+      "sourceCount": 6,
+      "channels": 1,
+      "frequency": 44100,
+      "bitsPerSample": 16,
+      "lengthSeconds": 1.9536054134368896,
+      "loadType": 0,
+      "compressionFormat": 1
+    },
+    {
+      "id": "audio:956",
+      "group": "audio",
+      "kind": "unity-audio-clip",
+      "name": "Fail1",
+      "originalExtension": ".wav",
+      "cocosExtension": ".wav",
+      "importType": "AudioClip",
+      "sourcePath": "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split0",
+      "outputPath": "assets/resources/converted/audio/Fail1.wav",
+      "resourceLoadPath": "converted/audio/Fail1",
+      "bytes": 176444,
+      "sha256": "b2b5a9a63856f050c9b4659d5434ac1729c587ed2d52b4a8264549e3dead92f8",
+      "clipName": "Fail1",
+      "fileName": "Fail1.wav",
+      "sources": [
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split0",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split1",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split2",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split3",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split4",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split5"
+      ],
+      "sourceCount": 6,
+      "channels": 1,
+      "frequency": 44100,
+      "bitsPerSample": 16,
+      "lengthSeconds": 2,
+      "loadType": 0,
+      "compressionFormat": 1
+    },
+    {
+      "id": "audio:957",
+      "group": "audio",
+      "kind": "unity-audio-clip",
+      "name": "FlipCard1",
+      "originalExtension": ".wav",
+      "cocosExtension": ".wav",
+      "importType": "AudioClip",
+      "sourcePath": "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split0",
+      "outputPath": "assets/resources/converted/audio/FlipCard1.wav",
+      "resourceLoadPath": "converted/audio/FlipCard1",
+      "bytes": 56950,
+      "sha256": "1f3398b1b31ffe0d9fc28a97c7c471fa41a5ee67b5d371fd555be833a8e66e15",
+      "clipName": "FlipCard1",
+      "fileName": "FlipCard1.wav",
+      "sources": [
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split0",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split1",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split10",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split11",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split12",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split13",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split14",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split15",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split16",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split17",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split18",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split19",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split2",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split20",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split21",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split22",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split23",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split24",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split25",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split26",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split27",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split28",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split29",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split3",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split30",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split31",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split32",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split4",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split5",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split6",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split7",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split8",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split9"
+      ],
+      "sourceCount": 33,
+      "channels": 1,
+      "frequency": 44100,
+      "bitsPerSample": 16,
+      "lengthSeconds": 0.6451927423477173,
+      "loadType": 0,
+      "compressionFormat": 1
+    },
+    {
+      "id": "audio:958",
+      "group": "audio",
+      "kind": "unity-audio-clip",
+      "name": "LockUnlock1",
+      "originalExtension": ".wav",
+      "cocosExtension": ".wav",
+      "importType": "AudioClip",
+      "sourcePath": "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split0",
+      "outputPath": "assets/resources/converted/audio/LockUnlock1.wav",
+      "resourceLoadPath": "converted/audio/LockUnlock1",
+      "bytes": 99146,
+      "sha256": "05fef83efa69e30f4d615f463429de953e72917fa28a55de6fbe675f2085176b",
+      "clipName": "LockUnlock1",
+      "fileName": "LockUnlock1.wav",
+      "sources": [
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split0",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split1",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split2",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split3",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split4",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split5"
+      ],
+      "sourceCount": 6,
+      "channels": 1,
+      "frequency": 48000,
+      "bitsPerSample": 16,
+      "lengthSeconds": 1.0323125123977661,
+      "loadType": 0,
+      "compressionFormat": 1
+    },
+    {
+      "id": "audio:959",
+      "group": "audio",
+      "kind": "unity-audio-clip",
+      "name": "NewClueCollect1",
+      "originalExtension": ".wav",
+      "cocosExtension": ".wav",
+      "importType": "AudioClip",
+      "sourcePath": "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split0",
+      "outputPath": "assets/resources/converted/audio/NewClueCollect1.wav",
+      "resourceLoadPath": "converted/audio/NewClueCollect1",
+      "bytes": 56950,
+      "sha256": "1f3398b1b31ffe0d9fc28a97c7c471fa41a5ee67b5d371fd555be833a8e66e15",
+      "clipName": "NewClueCollect1",
+      "fileName": "NewClueCollect1.wav",
+      "sources": [
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split0",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split1",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split2",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split3",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split4",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split5"
+      ],
+      "sourceCount": 6,
+      "channels": 1,
+      "frequency": 44100,
+      "bitsPerSample": 16,
+      "lengthSeconds": 0.6451927423477173,
+      "loadType": 0,
+      "compressionFormat": 1
+    },
+    {
+      "id": "audio:960",
+      "group": "audio",
+      "kind": "unity-audio-clip",
+      "name": "NewClueSpawn1",
+      "originalExtension": ".wav",
+      "cocosExtension": ".wav",
+      "importType": "AudioClip",
+      "sourcePath": "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split0",
+      "outputPath": "assets/resources/converted/audio/NewClueSpawn1.wav",
+      "resourceLoadPath": "converted/audio/NewClueSpawn1",
+      "bytes": 132286,
+      "sha256": "b7e64cd0d8584a8b182226d05a90621a00d994b911f20b0696216ea17864ad32",
+      "clipName": "NewClueSpawn1",
+      "fileName": "NewClueSpawn1.wav",
+      "sources": [
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split0",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split1",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split2",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split3",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split4",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split5"
+      ],
+      "sourceCount": 6,
+      "channels": 1,
+      "frequency": 44100,
+      "bitsPerSample": 16,
+      "lengthSeconds": 1.499342441558838,
+      "loadType": 0,
+      "compressionFormat": 1
+    },
+    {
+      "id": "audio:961",
+      "group": "audio",
+      "kind": "unity-audio-clip",
+      "name": "OpenReward3",
+      "originalExtension": ".wav",
+      "cocosExtension": ".wav",
+      "importType": "AudioClip",
+      "sourcePath": "assets/original_unity/unity_data/bin_Data/sharedassets3.assets.split0",
+      "outputPath": "assets/resources/converted/audio/OpenReward3.wav",
+      "resourceLoadPath": "converted/audio/OpenReward3",
+      "bytes": 317016,
+      "sha256": "1f63a93ccc500a312af6ffb636ff46d504076b6a78c1a1019d245ecbaf7c1a9b",
+      "clipName": "OpenReward3",
+      "fileName": "OpenReward3.wav",
+      "sources": [
+        "assets/original_unity/unity_data/bin_Data/sharedassets3.assets.split0",
+        "assets/original_unity/unity_data/bin_Data/sharedassets3.assets.split1",
+        "assets/original_unity/unity_data/bin_Data/sharedassets3.assets.split2",
+        "assets/original_unity/unity_data/bin_Data/sharedassets3.assets.split3",
+        "assets/original_unity/unity_data/bin_Data/sharedassets3.assets.split4",
+        "assets/original_unity/unity_data/bin_Data/sharedassets3.assets.split5",
+        "assets/original_unity/unity_data/bin_Data/sharedassets3.assets.split6",
+        "assets/original_unity/unity_data/bin_Data/sharedassets3.assets.split7",
+        "assets/original_unity/unity_data/bin_Data/sharedassets3.assets.split8",
+        "assets/original_unity/unity_data/bin_Data/sharedassets3.assets.split9"
+      ],
+      "sourceCount": 10,
+      "channels": 1,
+      "frequency": 44100,
+      "bitsPerSample": 16,
+      "lengthSeconds": 3.5937869548797607,
+      "loadType": 0,
+      "compressionFormat": 1
+    },
+    {
+      "id": "audio:962",
+      "group": "audio",
+      "kind": "unity-audio-clip",
+      "name": "ResourceExplosion",
+      "originalExtension": ".wav",
+      "cocosExtension": ".wav",
+      "importType": "AudioClip",
+      "sourcePath": "assets/original_unity/unity_data/bin_Data/2deb59fc01e854094b48837749c27037",
+      "outputPath": "assets/resources/converted/audio/ResourceExplosion.wav",
+      "resourceLoadPath": "converted/audio/ResourceExplosion",
+      "bytes": 147500,
+      "sha256": "84c528671c22850fc6a4e35e525c6dcab898dbb6a1ae4932cabf09d1bd81b9a6",
+      "clipName": "ResourceExplosion",
+      "fileName": "ResourceExplosion.wav",
+      "sources": [
+        "assets/original_unity/unity_data/bin_Data/2deb59fc01e854094b48837749c27037"
+      ],
+      "sourceCount": 1,
+      "channels": 2,
+      "frequency": 48000,
+      "bitsPerSample": 16,
+      "lengthSeconds": 0.7680000066757202,
+      "loadType": 0,
+      "compressionFormat": 1
+    },
+    {
+      "id": "audio:963",
+      "group": "audio",
+      "kind": "unity-audio-clip",
+      "name": "ResourceLanded",
+      "originalExtension": ".wav",
+      "cocosExtension": ".wav",
+      "importType": "AudioClip",
+      "sourcePath": "assets/original_unity/unity_data/bin_Data/8ab9f96308f525a49a7ac7a50256d6ed",
+      "outputPath": "assets/resources/converted/audio/ResourceLanded.wav",
+      "resourceLoadPath": "converted/audio/ResourceLanded",
+      "bytes": 2904,
+      "sha256": "e0db51ebb06afc9d7960c67391f2321695579949d7019e2b1f6587f3f44cb50e",
+      "clipName": "ResourceLanded",
+      "fileName": "ResourceLanded.wav",
+      "sources": [
+        "assets/original_unity/unity_data/bin_Data/8ab9f96308f525a49a7ac7a50256d6ed"
+      ],
+      "sourceCount": 1,
+      "channels": 2,
+      "frequency": 48000,
+      "bitsPerSample": 16,
+      "lengthSeconds": 0.014895833097398281,
+      "loadType": 0,
+      "compressionFormat": 1
+    },
+    {
+      "id": "audio:964",
+      "group": "audio",
+      "kind": "unity-audio-clip",
+      "name": "RevealUsage1",
+      "originalExtension": ".wav",
+      "cocosExtension": ".wav",
+      "importType": "AudioClip",
+      "sourcePath": "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split0",
+      "outputPath": "assets/resources/converted/audio/RevealUsage1.wav",
+      "resourceLoadPath": "converted/audio/RevealUsage1",
+      "bytes": 195884,
+      "sha256": "86275dd668208c9da9d23b6835ab1b28e76a0770c3230f095e9bee2ea6eb8f1c",
+      "clipName": "RevealUsage1",
+      "fileName": "RevealUsage1.wav",
+      "sources": [
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split0",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split1",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split2",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split3",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split4",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split5"
+      ],
+      "sourceCount": 6,
+      "channels": 1,
+      "frequency": 48000,
+      "bitsPerSample": 16,
+      "lengthSeconds": 2.0399999618530273,
+      "loadType": 0,
+      "compressionFormat": 1
+    },
+    {
+      "id": "audio:965",
+      "group": "audio",
+      "kind": "unity-audio-clip",
+      "name": "Revive1",
+      "originalExtension": ".wav",
+      "cocosExtension": ".wav",
+      "importType": "AudioClip",
+      "sourcePath": "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split0",
+      "outputPath": "assets/resources/converted/audio/Revive1.wav",
+      "resourceLoadPath": "converted/audio/Revive1",
+      "bytes": 339162,
+      "sha256": "e13e1a734d78ad6ecbac694aa5767ed37727b517bc28713f80de7c092179b12e",
+      "clipName": "Revive1",
+      "fileName": "Revive1.wav",
+      "sources": [
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split0",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split1",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split2",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split3",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split4",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split5"
+      ],
+      "sourceCount": 6,
+      "channels": 1,
+      "frequency": 44100,
+      "bitsPerSample": 16,
+      "lengthSeconds": 3.8448753356933594,
+      "loadType": 0,
+      "compressionFormat": 1
+    },
+    {
+      "id": "audio:966",
+      "group": "audio",
+      "kind": "unity-audio-clip",
+      "name": "StarCollect",
+      "originalExtension": ".wav",
+      "cocosExtension": ".wav",
+      "importType": "AudioClip",
+      "sourcePath": "assets/original_unity/unity_data/bin_Data/sharedassets3.assets.split0",
+      "outputPath": "assets/resources/converted/audio/StarCollect.wav",
+      "resourceLoadPath": "converted/audio/StarCollect",
+      "bytes": 12732,
+      "sha256": "e4f20a3387fb65c295aa33080932fdff7c444c42c2e8660f7a68818d053ee9e8",
+      "clipName": "StarCollect",
+      "fileName": "StarCollect.wav",
+      "sources": [
+        "assets/original_unity/unity_data/bin_Data/sharedassets3.assets.split0",
+        "assets/original_unity/unity_data/bin_Data/sharedassets3.assets.split1",
+        "assets/original_unity/unity_data/bin_Data/sharedassets3.assets.split2",
+        "assets/original_unity/unity_data/bin_Data/sharedassets3.assets.split3",
+        "assets/original_unity/unity_data/bin_Data/sharedassets3.assets.split4",
+        "assets/original_unity/unity_data/bin_Data/sharedassets3.assets.split5",
+        "assets/original_unity/unity_data/bin_Data/sharedassets3.assets.split6",
+        "assets/original_unity/unity_data/bin_Data/sharedassets3.assets.split7",
+        "assets/original_unity/unity_data/bin_Data/sharedassets3.assets.split8",
+        "assets/original_unity/unity_data/bin_Data/sharedassets3.assets.split9"
+      ],
+      "sourceCount": 10,
+      "channels": 1,
+      "frequency": 44100,
+      "bitsPerSample": 16,
+      "lengthSeconds": 0.14385487139225006,
+      "loadType": 0,
+      "compressionFormat": 1
+    },
+    {
+      "id": "audio:967",
+      "group": "audio",
+      "kind": "unity-audio-clip",
+      "name": "StarSpawn",
+      "originalExtension": ".wav",
+      "cocosExtension": ".wav",
+      "importType": "AudioClip",
+      "sourcePath": "assets/original_unity/unity_data/bin_Data/sharedassets3.assets.split0",
+      "outputPath": "assets/resources/converted/audio/StarSpawn.wav",
+      "resourceLoadPath": "converted/audio/StarSpawn",
+      "bytes": 68352,
+      "sha256": "cdeca85f8b624cb4700f73e5f968bf637ce0c0111df0f94088812d0a52ea2d75",
+      "clipName": "StarSpawn",
+      "fileName": "StarSpawn.wav",
+      "sources": [
+        "assets/original_unity/unity_data/bin_Data/sharedassets3.assets.split0",
+        "assets/original_unity/unity_data/bin_Data/sharedassets3.assets.split1",
+        "assets/original_unity/unity_data/bin_Data/sharedassets3.assets.split2",
+        "assets/original_unity/unity_data/bin_Data/sharedassets3.assets.split3",
+        "assets/original_unity/unity_data/bin_Data/sharedassets3.assets.split4",
+        "assets/original_unity/unity_data/bin_Data/sharedassets3.assets.split5",
+        "assets/original_unity/unity_data/bin_Data/sharedassets3.assets.split6",
+        "assets/original_unity/unity_data/bin_Data/sharedassets3.assets.split7",
+        "assets/original_unity/unity_data/bin_Data/sharedassets3.assets.split8",
+        "assets/original_unity/unity_data/bin_Data/sharedassets3.assets.split9"
+      ],
+      "sourceCount": 10,
+      "channels": 1,
+      "frequency": 44100,
+      "bitsPerSample": 16,
+      "lengthSeconds": 0.7744671106338501,
+      "loadType": 0,
+      "compressionFormat": 1
+    },
+    {
+      "id": "audio:968",
+      "group": "audio",
+      "kind": "unity-audio-clip",
+      "name": "SubjectComplete1",
+      "originalExtension": ".wav",
+      "cocosExtension": ".wav",
+      "importType": "AudioClip",
+      "sourcePath": "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split0",
+      "outputPath": "assets/resources/converted/audio/SubjectComplete1.wav",
+      "resourceLoadPath": "converted/audio/SubjectComplete1",
+      "bytes": 186668,
+      "sha256": "b3f86f32648ac89bf694036677a99374ea895b3d155a4465621174239f2e7616",
+      "clipName": "SubjectComplete1",
+      "fileName": "SubjectComplete1.wav",
+      "sources": [
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split0",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split1",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split2",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split3",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split4",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split5"
+      ],
+      "sourceCount": 6,
+      "channels": 1,
+      "frequency": 44100,
+      "bitsPerSample": 16,
+      "lengthSeconds": 2.1159183979034424,
+      "loadType": 0,
+      "compressionFormat": 1
+    },
+    {
+      "id": "audio:969",
+      "group": "audio",
+      "kind": "unity-audio-clip",
+      "name": "ThemeBarFull4",
+      "originalExtension": ".wav",
+      "cocosExtension": ".wav",
+      "importType": "AudioClip",
+      "sourcePath": "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split0",
+      "outputPath": "assets/resources/converted/audio/ThemeBarFull4.wav",
+      "resourceLoadPath": "converted/audio/ThemeBarFull4",
+      "bytes": 116108,
+      "sha256": "67cb36f8fb546bd282d98bb4e5b04989b738c1ecdf606b58f7483e7f2ccde667",
+      "clipName": "ThemeBarFull4",
+      "fileName": "ThemeBarFull4.wav",
+      "sources": [
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split0",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split1",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split2",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split3",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split4",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split5"
+      ],
+      "sourceCount": 6,
+      "channels": 1,
+      "frequency": 44100,
+      "bitsPerSample": 16,
+      "lengthSeconds": 1.3159183263778687,
+      "loadType": 0,
+      "compressionFormat": 1
+    },
+    {
+      "id": "audio:970",
+      "group": "audio",
+      "kind": "unity-audio-clip",
+      "name": "ThemeUnlocked1",
+      "originalExtension": ".wav",
+      "cocosExtension": ".wav",
+      "importType": "AudioClip",
+      "sourcePath": "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split0",
+      "outputPath": "assets/resources/converted/audio/ThemeUnlocked1.wav",
+      "resourceLoadPath": "converted/audio/ThemeUnlocked1",
+      "bytes": 307244,
+      "sha256": "6f97ea9400a2e61fe8c9e4a49f9f98c650f384cabdd7bd071d6ee4e83f24ec79",
+      "clipName": "ThemeUnlocked1",
+      "fileName": "ThemeUnlocked1.wav",
+      "sources": [
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split0",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split1",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split2",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split3",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split4",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split5"
+      ],
+      "sourceCount": 6,
+      "channels": 1,
+      "frequency": 44100,
+      "bitsPerSample": 16,
+      "lengthSeconds": 3.4829931259155273,
+      "loadType": 0,
+      "compressionFormat": 1
+    },
+    {
+      "id": "audio:971",
+      "group": "audio",
+      "kind": "unity-audio-clip",
+      "name": "Win1",
+      "originalExtension": ".wav",
+      "cocosExtension": ".wav",
+      "importType": "AudioClip",
+      "sourcePath": "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split0",
+      "outputPath": "assets/resources/converted/audio/Win1.wav",
+      "resourceLoadPath": "converted/audio/Win1",
+      "bytes": 352844,
+      "sha256": "2eff7b8b2929f354b87c0be121ee9a923996a34dccee9e39862cc0f8ad122407",
+      "clipName": "Win1",
+      "fileName": "Win1.wav",
+      "sources": [
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split0",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split1",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split2",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split3",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split4",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split5"
+      ],
+      "sourceCount": 6,
+      "channels": 1,
+      "frequency": 44100,
+      "bitsPerSample": 16,
+      "lengthSeconds": 4,
+      "loadType": 0,
+      "compressionFormat": 1
+    },
+    {
+      "id": "audio:972",
+      "group": "audio",
+      "kind": "unity-audio-clip",
+      "name": "WinShineSparkle1",
+      "originalExtension": ".wav",
+      "cocosExtension": ".wav",
+      "importType": "AudioClip",
+      "sourcePath": "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split0",
+      "outputPath": "assets/resources/converted/audio/WinShineSparkle1.wav",
+      "resourceLoadPath": "converted/audio/WinShineSparkle1",
+      "bytes": 308744,
+      "sha256": "6081f3faf63d9205ad1d3f6471df214c7f0b8fa3b13b52721315679b179e93c4",
+      "clipName": "WinShineSparkle1",
+      "fileName": "WinShineSparkle1.wav",
+      "sources": [
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split0",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split1",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split10",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split11",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split12",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split13",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split14",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split15",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split16",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split17",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split18",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split19",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split2",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split20",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split21",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split22",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split23",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split24",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split25",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split26",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split27",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split28",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split29",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split3",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split30",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split31",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split32",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split4",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split5",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split6",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split7",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split8",
+        "assets/original_unity/unity_data/bin_Data/sharedassets0.assets.split9"
+      ],
+      "sourceCount": 33,
+      "channels": 1,
+      "frequency": 44100,
+      "bitsPerSample": 16,
+      "lengthSeconds": 3.5,
+      "loadType": 0,
+      "compressionFormat": 1
+    },
+    {
+      "id": "audio:973",
+      "group": "audio",
+      "kind": "unity-audio-clip",
+      "name": "WinShineSparkle3",
+      "originalExtension": ".wav",
+      "cocosExtension": ".wav",
+      "importType": "AudioClip",
+      "sourcePath": "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split0",
+      "outputPath": "assets/resources/converted/audio/WinShineSparkle3.wav",
+      "resourceLoadPath": "converted/audio/WinShineSparkle3",
+      "bytes": 160064,
+      "sha256": "aed0c8208063e6f4551c97db677c7486735ccb41ad72eb2328fadd4e889715ce",
+      "clipName": "WinShineSparkle3",
+      "fileName": "WinShineSparkle3.wav",
+      "sources": [
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split0",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split1",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split2",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split3",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split4",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split5"
+      ],
+      "sourceCount": 6,
+      "channels": 1,
+      "frequency": 44100,
+      "bitsPerSample": 16,
+      "lengthSeconds": 1.8142857551574707,
+      "loadType": 0,
+      "compressionFormat": 1
+    },
+    {
+      "id": "audio:974",
+      "group": "audio",
+      "kind": "unity-audio-clip",
+      "name": "WinSubjectPut1",
+      "originalExtension": ".wav",
+      "cocosExtension": ".wav",
+      "importType": "AudioClip",
+      "sourcePath": "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split0",
+      "outputPath": "assets/resources/converted/audio/WinSubjectPut1.wav",
+      "resourceLoadPath": "converted/audio/WinSubjectPut1",
+      "bytes": 22678,
+      "sha256": "5756f2374f379feb2835979475b13345186f534993c6502759ed63e40fef75cf",
+      "clipName": "WinSubjectPut1",
+      "fileName": "WinSubjectPut1.wav",
+      "sources": [
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split0",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split1",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split2",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split3",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split4",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split5"
+      ],
+      "sourceCount": 6,
+      "channels": 1,
+      "frequency": 44100,
+      "bitsPerSample": 16,
+      "lengthSeconds": 0.2566213011741638,
+      "loadType": 0,
+      "compressionFormat": 1
+    },
+    {
+      "id": "audio:975",
+      "group": "audio",
+      "kind": "unity-audio-clip",
+      "name": "Wrong1",
+      "originalExtension": ".wav",
+      "cocosExtension": ".wav",
+      "importType": "AudioClip",
+      "sourcePath": "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split0",
+      "outputPath": "assets/resources/converted/audio/Wrong1.wav",
+      "resourceLoadPath": "converted/audio/Wrong1",
+      "bytes": 25388,
+      "sha256": "93985ca2a1712c88799b7105ed020c0582e9964731856243ff7491110335a4df",
+      "clipName": "Wrong1",
+      "fileName": "Wrong1.wav",
+      "sources": [
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split0",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split1",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split2",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split3",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split4",
+        "assets/original_unity/unity_data/bin_Data/sharedassets2.assets.split5"
+      ],
+      "sourceCount": 6,
+      "channels": 1,
+      "frequency": 44100,
+      "bitsPerSample": 16,
+      "lengthSeconds": 0.2873469293117523,
+      "loadType": 0,
+      "compressionFormat": 1
+    },
+    {
+      "id": "configs:976",
       "group": "configs",
       "kind": "unity-services-config",
       "name": "UnityServicesProjectConfiguration.json",
@@ -13424,7 +14562,7 @@
       "sha256": "cf5d12e99479d882701150c25cdab7a570456cfffc3a5fc22a35ad01d5e19128"
     },
     {
-      "id": "configs:947",
+      "id": "configs:977",
       "group": "configs",
       "kind": "config-zip-binary",
       "name": "StreamingAssetsBalancy.zip",
@@ -13438,7 +14576,7 @@
       "sha256": "2e264fc8c3ef73cfe1cb69e71f0672c38fadb0d6bd194ceb2dc7e95591521eb0"
     },
     {
-      "id": "configs:948",
+      "id": "configs:978",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_Branches.json",
@@ -13454,7 +14592,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_Branches.json"
     },
     {
-      "id": "configs:949",
+      "id": "configs:979",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "do_versions_1.json",
@@ -13470,7 +14608,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_Cache/do_versions_1.json"
     },
     {
-      "id": "configs:950",
+      "id": "configs:980",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "do_versions_128.json",
@@ -13486,7 +14624,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_Cache/do_versions_128.json"
     },
     {
-      "id": "configs:951",
+      "id": "configs:981",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "do_versions_16.json",
@@ -13502,7 +14640,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_Cache/do_versions_16.json"
     },
     {
-      "id": "configs:952",
+      "id": "configs:982",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "do_versions_256.json",
@@ -13518,7 +14656,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_Cache/do_versions_256.json"
     },
     {
-      "id": "configs:953",
+      "id": "configs:983",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "do_versions_32.json",
@@ -13534,7 +14672,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_Cache/do_versions_32.json"
     },
     {
-      "id": "configs:954",
+      "id": "configs:984",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "do_versions_512.json",
@@ -13550,7 +14688,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_Cache/do_versions_512.json"
     },
     {
-      "id": "configs:955",
+      "id": "configs:985",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "do_versions_64.json",
@@ -13566,7 +14704,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_Cache/do_versions_64.json"
     },
     {
-      "id": "configs:956",
+      "id": "configs:986",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "so_defaults.json",
@@ -13582,7 +14720,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_Cache/so_defaults.json"
     },
     {
-      "id": "configs:957",
+      "id": "configs:987",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_Core.Language.json",
@@ -13598,7 +14736,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_Core.Language.json"
     },
     {
-      "id": "configs:958",
+      "id": "configs:988",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_GlobalSettings.json",
@@ -13614,7 +14752,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_GlobalSettings.json"
     },
     {
-      "id": "configs:959",
+      "id": "configs:989",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.BattlePass.BattlePassConfig.json",
@@ -13630,7 +14768,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.BattlePass.BattlePassConfig.json"
     },
     {
-      "id": "configs:960",
+      "id": "configs:990",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.BattlePass.GameEvent.json",
@@ -13646,7 +14784,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.BattlePass.GameEvent.json"
     },
     {
-      "id": "configs:961",
+      "id": "configs:991",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.BattlePass.RewardLine.json",
@@ -13662,7 +14800,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.BattlePass.RewardLine.json"
     },
     {
-      "id": "configs:962",
+      "id": "configs:992",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.DailyBonus.json",
@@ -13678,7 +14816,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.DailyBonus.json"
     },
     {
-      "id": "configs:963",
+      "id": "configs:993",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.Store.Page.json",
@@ -13694,7 +14832,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.Store.Page.json"
     },
     {
-      "id": "configs:964",
+      "id": "configs:994",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.Store.Slot.json",
@@ -13710,7 +14848,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.Store.Slot.json"
     },
     {
-      "id": "configs:965",
+      "id": "configs:995",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.Store.SlotCooldown.json",
@@ -13726,7 +14864,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.Store.SlotCooldown.json"
     },
     {
-      "id": "configs:966",
+      "id": "configs:996",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.Store.SlotLogicCooldown.json",
@@ -13742,7 +14880,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.Store.SlotLogicCooldown.json"
     },
     {
-      "id": "configs:967",
+      "id": "configs:997",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.Store.SlotLogicMultiplier.json",
@@ -13758,7 +14896,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.Store.SlotLogicMultiplier.json"
     },
     {
-      "id": "configs:968",
+      "id": "configs:998",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.Store.SlotLogicPeriod.json",
@@ -13774,7 +14912,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.Store.SlotLogicPeriod.json"
     },
     {
-      "id": "configs:969",
+      "id": "configs:999",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.Store.SlotMultiplier.json",
@@ -13790,7 +14928,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.Store.SlotMultiplier.json"
     },
     {
-      "id": "configs:970",
+      "id": "configs:1000",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.Store.SlotPeriod.json",
@@ -13806,7 +14944,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.Store.SlotPeriod.json"
     },
     {
-      "id": "configs:971",
+      "id": "configs:1001",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.Tasks.TaskCompleteLevels.json",
@@ -13822,7 +14960,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.Tasks.TaskCompleteLevels.json"
     },
     {
-      "id": "configs:972",
+      "id": "configs:1002",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.Tasks.TaskCompleteLevelsStreak.json",
@@ -13838,7 +14976,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.Tasks.TaskCompleteLevelsStreak.json"
     },
     {
-      "id": "configs:973",
+      "id": "configs:1003",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.Tasks.TaskItem.json",
@@ -13854,7 +14992,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_LiveOps.Tasks.TaskItem.json"
     },
     {
-      "id": "configs:974",
+      "id": "configs:1004",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "en.json",
@@ -13870,7 +15008,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_Localization/en.json"
     },
     {
-      "id": "configs:975",
+      "id": "configs:1005",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_Notifications.RemoteNotification.json",
@@ -13886,7 +15024,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_Notifications.RemoteNotification.json"
     },
     {
-      "id": "configs:976",
+      "id": "configs:1006",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_RVCap.RVCapConfig.json",
@@ -13902,7 +15040,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_RVCap.RVCapConfig.json"
     },
     {
-      "id": "configs:977",
+      "id": "configs:1007",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_RVCap.RVPlacementCapData.json",
@@ -13918,7 +15056,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_RVCap.RVPlacementCapData.json"
     },
     {
-      "id": "configs:978",
+      "id": "configs:1008",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Analytics.ABTest.json",
@@ -13934,7 +15072,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Analytics.ABTest.json"
     },
     {
-      "id": "configs:979",
+      "id": "configs:1009",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Analytics.ABTestVariant.json",
@@ -13950,7 +15088,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Analytics.ABTestVariant.json"
     },
     {
-      "id": "configs:980",
+      "id": "configs:1010",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.AssetsLifeTime.json",
@@ -13966,7 +15104,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.AssetsLifeTime.json"
     },
     {
-      "id": "configs:981",
+      "id": "configs:1011",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.ABTestCondition.json",
@@ -13982,7 +15120,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.ABTestCondition.json"
     },
     {
-      "id": "configs:982",
+      "id": "configs:1012",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.ActiveEvent.json",
@@ -13998,7 +15136,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.ActiveEvent.json"
     },
     {
-      "id": "configs:983",
+      "id": "configs:1013",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.ActiveOffer.json",
@@ -14014,7 +15152,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.ActiveOffer.json"
     },
     {
-      "id": "configs:984",
+      "id": "configs:1014",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.And.json",
@@ -14030,7 +15168,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.And.json"
     },
     {
-      "id": "configs:985",
+      "id": "configs:1015",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.AppVersion.json",
@@ -14046,7 +15184,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.AppVersion.json"
     },
     {
-      "id": "configs:986",
+      "id": "configs:1016",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.BalancyPlatform.json",
@@ -14062,7 +15200,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.BalancyPlatform.json"
     },
     {
-      "id": "configs:987",
+      "id": "configs:1017",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.Country.json",
@@ -14078,7 +15216,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.Country.json"
     },
     {
-      "id": "configs:988",
+      "id": "configs:1018",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.DatesRage.json",
@@ -14094,7 +15232,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.DatesRage.json"
     },
     {
-      "id": "configs:989",
+      "id": "configs:1019",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.DayOfTheWeek.json",
@@ -14110,7 +15248,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.DayOfTheWeek.json"
     },
     {
-      "id": "configs:990",
+      "id": "configs:1020",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.Empty.json",
@@ -14126,7 +15264,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.Empty.json"
     },
     {
-      "id": "configs:991",
+      "id": "configs:1021",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.EngineVersion.json",
@@ -14142,7 +15280,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.EngineVersion.json"
     },
     {
-      "id": "configs:992",
+      "id": "configs:1022",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.InstallVersion.json",
@@ -14158,7 +15296,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.InstallVersion.json"
     },
     {
-      "id": "configs:993",
+      "id": "configs:1023",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.InventoryItems.json",
@@ -14174,7 +15312,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.InventoryItems.json"
     },
     {
-      "id": "configs:994",
+      "id": "configs:1024",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.Not.json",
@@ -14190,7 +15328,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.Not.json"
     },
     {
-      "id": "configs:995",
+      "id": "configs:1025",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.Or.json",
@@ -14206,7 +15344,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.Or.json"
     },
     {
-      "id": "configs:996",
+      "id": "configs:1026",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.Platform.json",
@@ -14222,7 +15360,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.Platform.json"
     },
     {
-      "id": "configs:997",
+      "id": "configs:1027",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.ProductWasPurchased.json",
@@ -14238,7 +15376,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.ProductWasPurchased.json"
     },
     {
-      "id": "configs:998",
+      "id": "configs:1028",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.ProfileFieldBool.json",
@@ -14254,7 +15392,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.ProfileFieldBool.json"
     },
     {
-      "id": "configs:999",
+      "id": "configs:1029",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.ProfileFieldInRange.json",
@@ -14270,7 +15408,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.ProfileFieldInRange.json"
     },
     {
-      "id": "configs:1000",
+      "id": "configs:1030",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.ProfileFieldList.json",
@@ -14286,7 +15424,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.ProfileFieldList.json"
     },
     {
-      "id": "configs:1001",
+      "id": "configs:1031",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.ProfileFieldLong.json",
@@ -14302,7 +15440,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.ProfileFieldLong.json"
     },
     {
-      "id": "configs:1002",
+      "id": "configs:1032",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.ProfileFieldNumber.json",
@@ -14318,7 +15456,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.ProfileFieldNumber.json"
     },
     {
-      "id": "configs:1003",
+      "id": "configs:1033",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.ProfileFieldString.json",
@@ -14334,7 +15472,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.ProfileFieldString.json"
     },
     {
-      "id": "configs:1004",
+      "id": "configs:1034",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.Revenue.json",
@@ -14350,7 +15488,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.Revenue.json"
     },
     {
-      "id": "configs:1005",
+      "id": "configs:1035",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.SegmentCondition.json",
@@ -14366,7 +15504,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.SegmentCondition.json"
     },
     {
-      "id": "configs:1006",
+      "id": "configs:1036",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.StoreItemWasPurchased.json",
@@ -14382,7 +15520,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.StoreItemWasPurchased.json"
     },
     {
-      "id": "configs:1007",
+      "id": "configs:1037",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.SystemLanguage.json",
@@ -14398,7 +15536,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.SystemLanguage.json"
     },
     {
-      "id": "configs:1008",
+      "id": "configs:1038",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.TimeOfTheDay.json",
@@ -14414,7 +15552,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.TimeOfTheDay.json"
     },
     {
-      "id": "configs:1009",
+      "id": "configs:1039",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.TimeRage.json",
@@ -14430,7 +15568,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Conditions.TimeRage.json"
     },
     {
-      "id": "configs:1010",
+      "id": "configs:1040",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.GameConfig.json",
@@ -14446,7 +15584,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.GameConfig.json"
     },
     {
-      "id": "configs:1011",
+      "id": "configs:1041",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.GameEvent.json",
@@ -14462,7 +15600,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.GameEvent.json"
     },
     {
-      "id": "configs:1012",
+      "id": "configs:1042",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.GameOffer.json",
@@ -14478,7 +15616,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.GameOffer.json"
     },
     {
-      "id": "configs:1013",
+      "id": "configs:1043",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.GameOfferGroup.json",
@@ -14494,7 +15632,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.GameOfferGroup.json"
     },
     {
-      "id": "configs:1014",
+      "id": "configs:1044",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.InventoryConfig.json",
@@ -14510,7 +15648,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.InventoryConfig.json"
     },
     {
-      "id": "configs:1015",
+      "id": "configs:1045",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Item.json",
@@ -14526,7 +15664,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Item.json"
     },
     {
-      "id": "configs:1016",
+      "id": "configs:1046",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.ItemComponent.Bundle.json",
@@ -14542,7 +15680,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.ItemComponent.Bundle.json"
     },
     {
-      "id": "configs:1017",
+      "id": "configs:1047",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.ItemComponent.Decay.json",
@@ -14558,7 +15696,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.ItemComponent.Decay.json"
     },
     {
-      "id": "configs:1018",
+      "id": "configs:1048",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataAsset.json",
@@ -14574,7 +15712,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataAsset.json"
     },
     {
-      "id": "configs:1019",
+      "id": "configs:1049",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataBool.json",
@@ -14590,7 +15728,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataBool.json"
     },
     {
-      "id": "configs:1020",
+      "id": "configs:1050",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataColor.json",
@@ -14606,7 +15744,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataColor.json"
     },
     {
-      "id": "configs:1021",
+      "id": "configs:1051",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataDateTime.json",
@@ -14622,7 +15760,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataDateTime.json"
     },
     {
-      "id": "configs:1022",
+      "id": "configs:1052",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataDocument.json",
@@ -14638,7 +15776,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataDocument.json"
     },
     {
-      "id": "configs:1023",
+      "id": "configs:1053",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataDuration.json",
@@ -14654,7 +15792,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataDuration.json"
     },
     {
-      "id": "configs:1024",
+      "id": "configs:1054",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataEnum.json",
@@ -14670,7 +15808,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataEnum.json"
     },
     {
-      "id": "configs:1025",
+      "id": "configs:1055",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataFloat.json",
@@ -14686,7 +15824,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataFloat.json"
     },
     {
-      "id": "configs:1026",
+      "id": "configs:1056",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataImage.json",
@@ -14702,7 +15840,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataImage.json"
     },
     {
-      "id": "configs:1027",
+      "id": "configs:1057",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataInt.json",
@@ -14718,7 +15856,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataInt.json"
     },
     {
-      "id": "configs:1028",
+      "id": "configs:1058",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataListDocument.json",
@@ -14734,7 +15872,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataListDocument.json"
     },
     {
-      "id": "configs:1029",
+      "id": "configs:1059",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataListFloat.json",
@@ -14750,7 +15888,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataListFloat.json"
     },
     {
-      "id": "configs:1030",
+      "id": "configs:1060",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataListInt.json",
@@ -14766,7 +15904,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataListInt.json"
     },
     {
-      "id": "configs:1031",
+      "id": "configs:1061",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataListString.json",
@@ -14782,7 +15920,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataListString.json"
     },
     {
-      "id": "configs:1032",
+      "id": "configs:1062",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataLocalizedString.json",
@@ -14798,7 +15936,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataLocalizedString.json"
     },
     {
-      "id": "configs:1033",
+      "id": "configs:1063",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataLocalizedStringNew.json",
@@ -14814,7 +15952,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataLocalizedStringNew.json"
     },
     {
-      "id": "configs:1034",
+      "id": "configs:1064",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataLong.json",
@@ -14830,7 +15968,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataLong.json"
     },
     {
-      "id": "configs:1035",
+      "id": "configs:1065",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataProduct.json",
@@ -14846,7 +15984,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataProduct.json"
     },
     {
-      "id": "configs:1036",
+      "id": "configs:1066",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataString.json",
@@ -14862,7 +16000,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideDataString.json"
     },
     {
-      "id": "configs:1037",
+      "id": "configs:1067",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideInfo.json",
@@ -14878,7 +16016,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.OverrideInfo.json"
     },
     {
-      "id": "configs:1038",
+      "id": "configs:1068",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Segment.json",
@@ -14894,7 +16032,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.Segment.json"
     },
     {
-      "id": "configs:1039",
+      "id": "configs:1069",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.SegmentOption.json",
@@ -14910,7 +16048,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.SegmentOption.json"
     },
     {
-      "id": "configs:1040",
+      "id": "configs:1070",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.SmartConfig.json",
@@ -14926,7 +16064,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.SmartConfig.json"
     },
     {
-      "id": "configs:1041",
+      "id": "configs:1071",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.StoreItem.json",
@@ -14942,7 +16080,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_SmartObjects.StoreItem.json"
     },
     {
-      "id": "configs:1042",
+      "id": "configs:1072",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_UnnyProducts.json",
@@ -14958,7 +16096,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_UnnyProducts.json"
     },
     {
-      "id": "configs:1043",
+      "id": "configs:1073",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "77912c92-0d9c-11f1-93e0-1fec53a055ba_versions.json",
@@ -14974,7 +16112,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_versions.json"
     },
     {
-      "id": "configs:1044",
+      "id": "configs:1074",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "versions.json",
@@ -14990,7 +16128,7 @@
       "zipEntry": "Balancy/77912c92-0d9c-11f1-93e0-1fec53a055ba_VisualScripting/versions.json"
     },
     {
-      "id": "configs:1045",
+      "id": "configs:1075",
       "group": "configs",
       "kind": "config-zip-entry",
       "name": "balancy_files_manifest.txt",
@@ -15006,7 +16144,7 @@
       "zipEntry": "Balancy/balancy_files_manifest.txt"
     },
     {
-      "id": "archives:1046",
+      "id": "archives:1076",
       "group": "archives",
       "kind": "original-apk-assets-zip",
       "name": "ProfilePerfect_apk_assets.zip",

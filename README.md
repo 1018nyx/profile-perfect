@@ -54,6 +54,7 @@ npm run convert-original
 - `assets/resources/converted/unity-bundles`: all 540 Unity bundles as `BufferAsset` `.bin` files.
 - `assets/resources/converted/balancy`: Balancy JSON/TextAsset configs.
 - `assets/resources/converted/unity-data`: Unity Data split files as `BufferAsset` `.bin` files.
+- `assets/resources/converted/audio`: extracted Unity `AudioClip` samples as Cocos audio assets.
 - `assets/resources/converted/configs`: Unity services config plus extracted Balancy zip entries.
 - `assets/resources/converted/archives`: original APK assets zip as a loadable binary archive.
 - `assets/resources/data/cocos-converted-resource-manifest.json`: master runtime manifest.

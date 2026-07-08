@@ -1,6 +1,6 @@
-import { BufferAsset, JsonAsset, resources, TextAsset } from 'cc';
+import { AudioClip, BufferAsset, JsonAsset, resources, TextAsset } from 'cc';
 
-export type ConvertedOriginalGroup = 'unityBundles' | 'balancy' | 'unityData' | 'configs' | 'archives';
+export type ConvertedOriginalGroup = 'unityBundles' | 'balancy' | 'unityData' | 'audio' | 'configs' | 'archives';
 
 export interface ConvertedOriginalEntry {
   id: string;
@@ -9,7 +9,7 @@ export interface ConvertedOriginalEntry {
   name: string;
   originalExtension: string;
   cocosExtension: string;
-  importType: 'BufferAsset' | 'JsonAsset' | 'TextAsset';
+  importType: 'BufferAsset' | 'JsonAsset' | 'TextAsset' | 'AudioClip';
   sourcePath: string;
   outputPath: string;
   resourceLoadPath: string;
@@ -73,6 +73,18 @@ export async function loadConvertedBinary(resourcePath: string): Promise<ArrayBu
     });
   });
   return asset.buffer();
+}
+
+export async function loadConvertedAudio(resourcePath: string): Promise<AudioClip> {
+  return new Promise<AudioClip>((resolve, reject) => {
+    resources.load(resourcePath, AudioClip, (error, audioClip) => {
+      if (error || !audioClip) {
+        reject(error || new Error(`Failed to load audio asset: ${resourcePath}`));
+        return;
+      }
+      resolve(audioClip);
+    });
+  });
 }
 
 export function findConvertedEntries(

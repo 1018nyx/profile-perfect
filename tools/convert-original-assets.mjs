@@ -1,5 +1,5 @@
 import { execFileSync } from 'node:child_process';
-import { createHash } from 'node:crypto';
+import { createHash, randomUUID } from 'node:crypto';
 import { createReadStream } from 'node:fs';
 import fs from 'node:fs/promises';
 import path from 'node:path';
@@ -30,6 +30,12 @@ const groups = {
     source: 'assets/original_unity/unity_data',
     outputSubdir: 'unity-data',
     importType: 'BufferAsset',
+  },
+  audio: {
+    label: 'Extracted Unity AudioClip samples',
+    source: 'assets/original_unity/unity_bundles + assets/original_unity/unity_data',
+    outputSubdir: 'audio',
+    importType: 'AudioClip',
   },
   configs: {
     label: 'Unity service and Balancy zip configs',
@@ -108,6 +114,29 @@ async function walkFiles(root) {
   }
   await visit(root);
   return result.sort((a, b) => a.localeCompare(b));
+}
+
+async function collectMetaFiles(root) {
+  const metas = new Map();
+  for (const file of await walkFiles(root)) {
+    if (!file.endsWith('.meta')) continue;
+    metas.set(projectRel(file), await fs.readFile(file, 'utf8'));
+  }
+  return metas;
+}
+
+async function restoreMetaFiles(metas) {
+  for (const [relativeMetaPath, content] of metas) {
+    const metaPath = path.join(projectRoot, relativeMetaPath);
+    const assetPath = metaPath.slice(0, -'.meta'.length);
+    try {
+      await fs.access(assetPath);
+    } catch {
+      continue;
+    }
+    await ensureParent(metaPath);
+    await fs.writeFile(metaPath, content, 'utf8');
+  }
 }
 
 async function hashFile(filePath) {
@@ -297,6 +326,75 @@ async function convertUnityData() {
       name: relative,
     });
   }
+}
+
+function pythonExecutable() {
+  const bundled = '/Users/niuyaxue/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3';
+  return process.env.PYTHON || bundled;
+}
+
+async function convertUnityAudio() {
+  const manifestPath = path.join(projectRoot, 'temp', 'original-audio-extract.json');
+  const scriptPath = path.join(projectRoot, 'tools', 'extract-unity-audio.py');
+  const output = execFileSync(pythonExecutable(), [
+    scriptPath,
+    '--project',
+    projectRoot,
+    '--manifest',
+    manifestPath,
+  ], { encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 });
+  if (output.trim()) console.log(output.trim());
+
+  const audioManifest = JSON.parse(await fs.readFile(manifestPath, 'utf8'));
+  for (const audioEntry of audioManifest.entries || []) {
+    await writeAudioMeta(audioEntry);
+    await addEntry({
+      group: 'audio',
+      kind: 'unity-audio-clip',
+      name: audioEntry.name,
+      sourcePath: audioEntry.sourcePath,
+      outputPath: path.join(projectRoot, audioEntry.outputPath),
+      importType: 'AudioClip',
+      originalExtension: audioEntry.originalExtension,
+      sha256: audioEntry.sha256,
+      extra: {
+        clipName: audioEntry.clipName,
+        fileName: audioEntry.fileName,
+        sources: audioEntry.sources,
+        sourceCount: audioEntry.sources?.length || 1,
+        channels: audioEntry.channels,
+        frequency: audioEntry.frequency,
+        bitsPerSample: audioEntry.bitsPerSample,
+        lengthSeconds: audioEntry.lengthSeconds,
+        loadType: audioEntry.loadType,
+        compressionFormat: audioEntry.compressionFormat,
+      },
+    });
+  }
+
+  if (audioManifest.errors?.length) {
+    warnings.push(`Audio extraction reported ${audioManifest.errors.length} read errors; see ${projectRel(manifestPath)}`);
+  }
+}
+
+async function writeAudioMeta(audioEntry) {
+  const outputPath = path.join(projectRoot, audioEntry.outputPath);
+  const extension = path.extname(outputPath);
+  const meta = {
+    ver: '1.0.0',
+    importer: 'audio-clip',
+    imported: true,
+    uuid: randomUUID(),
+    files: [
+      extension,
+      '.json',
+    ],
+    subMetas: {},
+    userData: {
+      downloadMode: 0,
+    },
+  };
+  await fs.writeFile(`${outputPath}.meta`, `${JSON.stringify(meta, null, 2)}\n`, 'utf8');
 }
 
 function listZipEntries(zipPath) {
@@ -511,6 +609,7 @@ async function writeManifest() {
       json: "resources.load('converted/balancy/<file-name>', JsonAsset, callback)",
       text: "resources.load('converted/balancy/balancy_files_manifest', TextAsset, callback)",
       binary: "resources.load('converted/unity-bundles/ui_assets_all.bundle', BufferAsset, callback)",
+      audio: "resources.load('converted/audio/ButtonClick1', AudioClip, callback)",
     },
     existingExtractedCocosAssets: await existingExtractedAssetsSummary(),
     totals: {
@@ -532,14 +631,17 @@ async function writeManifest() {
 }
 
 async function main() {
+  const preservedMetas = await collectMetaFiles(convertedRoot);
   await fs.rm(convertedRoot, { recursive: true, force: true });
   await fs.mkdir(convertedRoot, { recursive: true });
 
   await convertUnityBundles();
   await convertBalancyConfigs();
   await convertUnityData();
+  await convertUnityAudio();
   await convertConfigsAndArchives();
   await writeManifest();
+  await restoreMetaFiles(preservedMetas);
 
   const summary = summarizeGroups();
   console.log('Converted original Unity assets for Cocos Creator resources.');
