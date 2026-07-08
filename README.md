@@ -35,12 +35,11 @@ Open Cocos Dashboard, choose **Import**, and select:
 
 After opening:
 
-1. Create a 2D scene if Creator does not create one automatically.
-2. Add a root Canvas or empty Node.
-3. Attach `assets/scripts/ui/GameBootstrap.ts` as the component.
-4. Press Preview.
+1. Open `assets/main.scene`.
+2. Wait for Creator to finish importing scripts and resources.
+3. Press Preview.
 
-`GameBootstrap` creates the portrait UI dynamically at runtime, including the level map, clue list, trait grid, value picker, progress, and extracted sprite icons.
+`assets/main.scene` includes a portrait Canvas, Camera, and `GameBootstrap` component. `GameBootstrap` creates the portrait UI dynamically at runtime, including the level map, clue list, trait grid, value picker, progress, and extracted sprite icons.
 
 ## Browser Preview
 
@@ -118,11 +117,11 @@ Current tested behavior:
 
 ## First-Pass Limitations
 
-- The browser preview is immediately runnable; Cocos native preview still requires opening the project in Cocos Creator and attaching `GameBootstrap` to a scene node.
+- The browser preview is immediately runnable; Cocos native preview starts from `assets/main.scene`.
 - The UI is close in structure and feel, but pixel-perfect parity requires screenshot-based tuning inside Creator.
 - Browser preview and Cocos runtime both have value-sprite rendering paths for extracted original sprites.
 - Full original Sprite resources are imported; all 7,194 level sprite references currently resolve to Cocos resource keys.
 - The generic `OriginalUiRenderer` can render exported original UI roots by bundle/root name after Creator imports the project resources.
-- Cocos native preview still needs Creator-side visual QA after the project is imported and the scene is attached.
+- Cocos native preview still needs Creator-side visual QA after the project is imported.
 - Fully matching every original UI page is now an incremental reconstruction task using `original-ui-hierarchy.json` and `original-ui-page-catalog.json`; the resource and hierarchy foundations are in place.
 - Ads, IAP, lives, shop, remote config, and mobile packaging are intentionally not part of this first build.
