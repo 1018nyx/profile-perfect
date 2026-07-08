@@ -23,6 +23,12 @@ Open:
 
 `http://127.0.0.1:4173/preview/`
 
+## Original XAPK
+
+Unpacked copy:
+
+`/Users/niuyaxue/Desktop/ProfilePerfect_xapk_unpacked`
+
 ## Kept
 
 - `assets/`: scene, scripts, original resources, audio, and runtime data.

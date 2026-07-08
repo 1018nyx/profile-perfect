@@ -20,10 +20,9 @@ body {
   display: grid;
   min-height: 100vh;
   place-items: center;
-  padding: 18px;
-  background:
-    radial-gradient(circle at 50% 0%, rgba(93, 126, 179, 0.24), transparent 38%),
-    linear-gradient(180deg, #293447 0%, #151a24 100%);
+  overflow: hidden;
+  padding: 12px;
+  background: linear-gradient(180deg, #293447 0%, #151a24 100%);
 }
 
 button,
@@ -36,9 +35,10 @@ select {
   display: grid;
   grid-template-rows: 48px 76px 76px minmax(168px, 1fr) minmax(150px, 0.78fr);
   gap: 10px;
-  width: min(100vw - 24px, 430px);
+  width: min(calc(100vw - 24px), 430px);
+  height: min(calc(100vh - 24px), 764px);
+  min-width: 0;
   aspect-ratio: 9 / 16;
-  max-height: calc(100vh - 24px);
   overflow: hidden;
   padding: 14px;
   border: 1px solid rgba(255, 255, 255, 0.24);

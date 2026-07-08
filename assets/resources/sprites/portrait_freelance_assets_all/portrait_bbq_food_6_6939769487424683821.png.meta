@@ -1,0 +1,134 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "83cb8b93-4c36-4135-a1d0-d15cc6dcf9b9",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "83cb8b93-4c36-4135-a1d0-d15cc6dcf9b9@6c48a",
+      "displayName": "portrait_bbq_food_6_6939769487424683821",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "imageUuidOrDatabaseUri": "83cb8b93-4c36-4135-a1d0-d15cc6dcf9b9",
+        "isUuid": true,
+        "visible": false,
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "83cb8b93-4c36-4135-a1d0-d15cc6dcf9b9@f9941",
+      "displayName": "portrait_bbq_food_6_6939769487424683821",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": -0.5,
+        "trimX": 2,
+        "trimY": 2,
+        "width": 56,
+        "height": 52,
+        "rawWidth": 60,
+        "rawHeight": 55,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -28,
+            -26,
+            0,
+            28,
+            -26,
+            0,
+            -28,
+            26,
+            0,
+            28,
+            26,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            2,
+            53,
+            58,
+            53,
+            2,
+            1,
+            58,
+            1
+          ],
+          "nuv": [
+            0.03333333333333333,
+            0.01818181818181818,
+            0.9666666666666667,
+            0.01818181818181818,
+            0.03333333333333333,
+            0.9636363636363636,
+            0.9666666666666667,
+            0.9636363636363636
+          ],
+          "minPos": [
+            -28,
+            -26,
+            0
+          ],
+          "maxPos": [
+            28,
+            26,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "83cb8b93-4c36-4135-a1d0-d15cc6dcf9b9@6c48a",
+        "atlasUuid": "",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "hasAlpha": true,
+    "fixAlphaTransparencyArtifacts": false,
+    "redirect": "83cb8b93-4c36-4135-a1d0-d15cc6dcf9b9@6c48a"
+  }
+}

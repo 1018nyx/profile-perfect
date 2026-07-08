@@ -1,0 +1,134 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "5235af15-7361-4705-97d2-2638790d9007",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "5235af15-7361-4705-97d2-2638790d9007@6c48a",
+      "displayName": "portrait_chocolate_brand_1_-2271641678850814565",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "imageUuidOrDatabaseUri": "5235af15-7361-4705-97d2-2638790d9007",
+        "isUuid": true,
+        "visible": false,
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "5235af15-7361-4705-97d2-2638790d9007@f9941",
+      "displayName": "portrait_chocolate_brand_1_-2271641678850814565",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0.5,
+        "offsetY": 0,
+        "trimX": 2,
+        "trimY": 2,
+        "width": 80,
+        "height": 63,
+        "rawWidth": 83,
+        "rawHeight": 67,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -40,
+            -31.5,
+            0,
+            40,
+            -31.5,
+            0,
+            -40,
+            31.5,
+            0,
+            40,
+            31.5,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            2,
+            65,
+            82,
+            65,
+            2,
+            2,
+            82,
+            2
+          ],
+          "nuv": [
+            0.024096385542168676,
+            0.029850746268656716,
+            0.9879518072289156,
+            0.029850746268656716,
+            0.024096385542168676,
+            0.9701492537313433,
+            0.9879518072289156,
+            0.9701492537313433
+          ],
+          "minPos": [
+            -40,
+            -31.5,
+            0
+          ],
+          "maxPos": [
+            40,
+            31.5,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "5235af15-7361-4705-97d2-2638790d9007@6c48a",
+        "atlasUuid": "",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "hasAlpha": true,
+    "fixAlphaTransparencyArtifacts": false,
+    "redirect": "5235af15-7361-4705-97d2-2638790d9007@6c48a"
+  }
+}

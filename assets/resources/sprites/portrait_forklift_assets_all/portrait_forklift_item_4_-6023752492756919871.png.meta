@@ -1,0 +1,134 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "0d5cd63a-12ef-4535-89a5-ab8c58cbd367",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "0d5cd63a-12ef-4535-89a5-ab8c58cbd367@6c48a",
+      "displayName": "portrait_forklift_item_4_-6023752492756919871",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "imageUuidOrDatabaseUri": "0d5cd63a-12ef-4535-89a5-ab8c58cbd367",
+        "isUuid": true,
+        "visible": false,
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "0d5cd63a-12ef-4535-89a5-ab8c58cbd367@f9941",
+      "displayName": "portrait_forklift_item_4_-6023752492756919871",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": -1,
+        "trimX": 2,
+        "trimY": 2,
+        "width": 43,
+        "height": 52,
+        "rawWidth": 47,
+        "rawHeight": 54,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -21.5,
+            -26,
+            0,
+            21.5,
+            -26,
+            0,
+            -21.5,
+            26,
+            0,
+            21.5,
+            26,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            2,
+            52,
+            45,
+            52,
+            2,
+            0,
+            45,
+            0
+          ],
+          "nuv": [
+            0.0425531914893617,
+            0,
+            0.9574468085106383,
+            0,
+            0.0425531914893617,
+            0.9629629629629629,
+            0.9574468085106383,
+            0.9629629629629629
+          ],
+          "minPos": [
+            -21.5,
+            -26,
+            0
+          ],
+          "maxPos": [
+            21.5,
+            26,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "0d5cd63a-12ef-4535-89a5-ab8c58cbd367@6c48a",
+        "atlasUuid": "",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "hasAlpha": true,
+    "fixAlphaTransparencyArtifacts": false,
+    "redirect": "0d5cd63a-12ef-4535-89a5-ab8c58cbd367@6c48a"
+  }
+}
