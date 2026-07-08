@@ -4,16 +4,10 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "test": "node --test tests/*.test.mjs",
-    "convert": "node tools/convert-levels.mjs",
-    "extract-sprites": "python3 tools/extract-sprites.py",
-    "extract-all-sprites": "python3 tools/extract-sprites.py --mode all-sprites --limit 0",
-    "import-textures": "python3 tools/import-textures.py",
-    "extract-ui-hierarchy": "python3 tools/extract-ui-hierarchy.py",
-    "build-ui-catalog": "node tools/build-ui-catalog.mjs",
-    "import-all-resources": "npm run import-textures && npm run extract-all-sprites && npm run extract-ui-hierarchy && npm run build-ui-catalog && npm run convert",
-    "build-data": "npm run convert && npm run extract-sprites && npm run convert",
-    "preview-web": "node tools/preview-server.mjs",
-    "verify": "npm test && npm run convert"
-  }
+    "preview-web": "node tools/preview-server.mjs"
+  },
+  "creator": {
+    "version": "3.8.7"
+  },
+  "uuid": "d4ca0930-ff40-4527-815b-7d8f832d1e44"
 }
